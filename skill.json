@@ -1,0 +1,926 @@
+[
+    {
+      "level": "S",
+      "name": "橫掃千軍",
+      "type": "主動",
+      "probability": "40%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "瞋目橫矛",
+      "type": "主動",
+      "probability": "40%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "破陣摧堅",
+      "type": "主動",
+      "probability": "35%",
+      "description": "準備1回合, 使敵軍群體（2人）統率,智力降低80點（受武力影響）, 持續2回合, 並對其發動一次兵..."
+    },
+    {
+      "level": "S",
+      "name": "所向披靡",
+      "type": "主動",
+      "probability": "30%",
+      "description": "準備1回合, 對敵軍全體發動一次兵刃攻擊（傷害率204.8%）"
+    },
+    {
+      "level": "S",
+      "name": "臥薪嘗膽",
+      "type": "主動",
+      "probability": "45%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "萬箭齊發",
+      "type": "主動",
+      "probability": "40%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "形機軍略",
+      "type": "主動",
+      "probability": "40%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "左右開弓",
+      "type": "主動",
+      "probability": "35%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "暗潮湧動",
+      "type": "主動",
+      "probability": "35%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "驍勇善戰",
+      "type": "主動",
+      "probability": "35%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "屠几上肉",
+      "type": "主動",
+      "probability": "35%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "天降火雨",
+      "type": "主動",
+      "probability": "50%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "短兵相接",
+      "type": "主動",
+      "probability": "40%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "不辱使命",
+      "type": "主動",
+      "probability": "40%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "暴斂四方",
+      "type": "主動",
+      "probability": "45%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "輕勇飛燕",
+      "type": "主動",
+      "probability": "40%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "神上使",
+      "type": "主動",
+      "probability": "50%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "縱兵劫掠",
+      "type": "主動",
+      "probability": "35%",
+      "description": "對敵軍單體造成兵刃攻擊（傷害率172%）及震攝狀態（無法行動）, 持續1回合"
+    },
+    {
+      "level": "A",
+      "name": "一舉殲滅",
+      "type": "主動",
+      "probability": "40%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "落鳳",
+      "type": "主動",
+      "probability": "35%",
+      "description": "對隨機敵軍單體造成兵刃攻擊（傷害率250%）, 並計窮（無法發動主動戰法）1回合"
+    },
+    {
+      "level": "A",
+      "name": "避實擊虛",
+      "type": "主動",
+      "probability": "50%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "劍衆而擊",
+      "type": "主動",
+      "probability": "35%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "火熾原燎",
+      "type": "主動",
+      "probability": "50%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "熯天熾地",
+      "type": "主動",
+      "probability": "35%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "風助火勢",
+      "type": "主動",
+      "probability": "45%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "杯蛇鬼車",
+      "type": "主動",
+      "probability": "50%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "四面楚歌",
+      "type": "主動",
+      "probability": "50%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "沉沙決水",
+      "type": "主動",
+      "probability": "40%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "誘敵深入",
+      "type": "主動",
+      "probability": "40%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "乘敵不虞",
+      "type": "主動",
+      "probability": "35%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "焚輜營壘",
+      "type": "主動",
+      "probability": "35%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "僞書相閒",
+      "type": "主動",
+      "probability": "40%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "運籌決算",
+      "type": "主動",
+      "probability": "35%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "挾勢弄權",
+      "type": "主動",
+      "probability": "35%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "兵以義動",
+      "type": "主動",
+      "probability": "35%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "料事如神",
+      "type": "主動",
+      "probability": "35%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "機略縱橫",
+      "type": "主動",
+      "probability": "45%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "聲東擊西",
+      "type": "主動",
+      "probability": "40%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "風聲鶴唳",
+      "type": "主動",
+      "probability": "45%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "落雷",
+      "type": "主動",
+      "probability": "50%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "偃旗息鼓",
+      "type": "主動",
+      "probability": "40%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "唇槍舌戰",
+      "type": "主動",
+      "probability": "50%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "妖術",
+      "type": "主動",
+      "probability": "40%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "兵鋒",
+      "type": "主動",
+      "probability": "25% → 35%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "黃天泰平",
+      "type": "主動",
+      "probability": "25% → 35%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "刮骨療毒",
+      "type": "主動",
+      "probability": "40%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "傾國傾城",
+      "type": "主動",
+      "probability": "25% → 40%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "結盟",
+      "type": "主動",
+      "probability": "30% → 45%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "奪魂挾魄",
+      "type": "主動",
+      "probability": "55%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "智計",
+      "type": "主動",
+      "probability": "50%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "一力拒守",
+      "type": "主動",
+      "probability": "55%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "嬰城自守",
+      "type": "主動",
+      "probability": "50%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "獨行赴斗",
+      "type": "主動",
+      "probability": "50%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "威謀靡亢",
+      "type": "主動",
+      "probability": "25% → 40%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "草船借箭",
+      "type": "主動",
+      "probability": "65%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "強攻",
+      "type": "主動",
+      "probability": "25% → 45%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "坐守孤城",
+      "type": "主動",
+      "probability": "45%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "廬江上甲",
+      "type": "主動",
+      "probability": "35%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "千里馳援",
+      "type": "主動",
+      "probability": "40%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "出其不意",
+      "type": "主動",
+      "probability": "20% → 35%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "驍健神行",
+      "type": "主動",
+      "probability": "25% → 45%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "挫志怒襲",
+      "type": "主動",
+      "probability": "25% → 35%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "才器過人",
+      "type": "主動",
+      "probability": "40%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "謙讓",
+      "type": "主動",
+      "probability": "40%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "驅散",
+      "type": "主動",
+      "probability": "30% → 45%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "淨化",
+      "type": "主動",
+      "probability": "30% → 45%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "進言",
+      "type": "主動",
+      "probability": "35%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "魯莽",
+      "type": "主動",
+      "probability": "35%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "魅惑",
+      "type": "被動",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "太平道法",
+      "type": "被動",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "絕地反擊",
+      "type": "被動",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "虎踞鷹揚",
+      "type": "被動",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "文武雙全",
+      "type": "被動",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "士別三日",
+      "type": "被動",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "兵無常勢",
+      "type": "被動",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "乘勝長驅",
+      "type": "被動",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "裸衣血戰",
+      "type": "被動",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "引弦力戰",
+      "type": "被動",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "剛勇無前",
+      "type": "被動",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "合軍聚眾",
+      "type": "被動",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "氣凌三軍",
+      "type": "被動",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "自愈",
+      "type": "被動",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "後發制人",
+      "type": "被動",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "矢志不移",
+      "type": "被動",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "奮突",
+      "type": "被動",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "白眉",
+      "type": "被動",
+      "probability": "100%",
+      "description": "戰鬥中, 自身主動戰法的發動機率提高12%"
+    },
+    {
+      "level": "A",
+      "name": "百煉成鋼",
+      "type": "被動",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "折衝禦悔",
+      "type": "突擊",
+      "probability": "25% → 45%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "暴戾無仁",
+      "type": "突擊",
+      "probability": "25% → 35%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "一騎當千",
+      "type": "突擊",
+      "probability": "30%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "百騎劫營",
+      "type": "突擊",
+      "probability": "40%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "鬼神霆威",
+      "type": "突擊",
+      "probability": "35%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "勇者得前",
+      "type": "突擊",
+      "probability": "45%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "當鋒摧決",
+      "type": "突擊",
+      "probability": "35%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "剋敵制勝",
+      "type": "突擊",
+      "probability": "40%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "手起刀落",
+      "type": "突擊",
+      "probability": "30%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "暗藏玄機",
+      "type": "突擊",
+      "probability": "40%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "彎弓飲羽",
+      "type": "突擊",
+      "probability": "40%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "夢中弑臣",
+      "type": "指揮",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "義心昭烈",
+      "type": "指揮",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "舌戰群儒",
+      "type": "指揮",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "挫銳",
+      "type": "指揮",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "守而必固",
+      "type": "指揮",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "暫避其鋒",
+      "type": "指揮",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "盛氣凌敵",
+      "type": "指揮",
+      "probability": "100%",
+      "description": "戰鬥開始後前2回合, 使敵軍群體（2人）每回合都有45%的機率陷入繳械狀態, 無法進行普通攻擊"
+    },
+    {
+      "level": "S",
+      "name": "用武通神",
+      "type": "指揮",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "撫輯軍民",
+      "type": "指揮",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "奇計良謀",
+      "type": "指揮",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "橫戈躍馬",
+      "type": "指揮",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "鐵騎駆馳",
+      "type": "指揮",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "騎虎難下",
+      "type": "指揮",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "禦敵屏障",
+      "type": "指揮",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "長者之風",
+      "type": "指揮",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "詐降",
+      "type": "指揮",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "A",
+      "name": "整裝待發",
+      "type": "指揮",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "鋒矢陣",
+      "type": "陣法",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "八門金鎖陣",
+      "type": "陣法",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "三勢陣",
+      "type": "陣法",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "箕形陣",
+      "type": "陣法",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "武鋒陣",
+      "type": "陣法",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "白馬義從",
+      "type": "兵種",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "無當飛軍",
+      "type": "兵種",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "錦帆軍",
+      "type": "兵種",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "虎豹騎",
+      "type": "兵種",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "西涼鐵騎",
+      "type": "兵種",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "象兵",
+      "type": "兵種",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "白毦兵",
+      "type": "兵種",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "大戟士",
+      "type": "兵種",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "青州兵",
+      "type": "兵種",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "藤甲兵",
+      "type": "兵種",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "陷陣營",
+      "type": "兵種",
+      "probability": "100%",
+      "description": ""
+    },
+    {
+      "level": "S",
+      "name": "虎衛軍",
+      "type": "兵種",
+      "probability": "100%",
+      "description": ""
+    }
+  ]
