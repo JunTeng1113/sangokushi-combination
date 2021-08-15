@@ -31,7 +31,7 @@ $(document).ready(function () {
         dataType: "json",
         success: function (response) {
             response.forEach(function(element, index) {
-                $("#skillList > ul").append(`<li index="${index}" level="${element['level']}"><type>[${element['type']}]</type><name>${element['name']}</name></li>`);
+                $("#skillMenu > ul").append(`<li index="${index}" level="${element['level']}"><type>[${element['type']}]</type><name>${element['name']}</name></li>`);
             });
         }
     });
@@ -43,7 +43,14 @@ $(document).ready(function () {
         dataType: "json",
         success: function (response) {
             response.forEach(function(element, index) {
-                $("#roleList > ul").append(`<li index="${index}" level="${element['level']}" skillLevel="${element['skill__level']}" skillName="${element['skill__name']}"><group>[${element['group']}]</group><name>${element['name']}</name></li>`);
+                const image = element['image'].replace("{name}", element['name']);
+                $("#roleMenu > ul").append(`<li 
+                    index="${index}" 
+                    level="${element['level']}" 
+                    skillLevel="${element['skill__level']}" 
+                    skillName="${element['skill__name']}" 
+                    image="${image}"
+                    ><group>[${element['group']}]</group><name>${element['name']}</name></li>`);
             });
         }
     });
@@ -68,7 +75,7 @@ $(document).ready(function () {
                 $(".selected").removeClass("selected");
             }
         } else {
-            $(`#skillList > ul > li[index="${$(this).attr("index")}"]`).removeClass("checked");
+            $(`#skillMenu > ul > li[index="${$(this).attr("index")}"]`).removeClass("checked");
             $(this).attr("index", "");
             $(this).find(".skillLevel").text("");
             $(this).find(".skillName").text("");
@@ -76,35 +83,30 @@ $(document).ready(function () {
         }
         
     });
-    $("#roleList > ul > li").click(function (e) { // 太複雜, 需優化
+    $("#roleMenu > ul > li:not(.checked)").click(function (e) { // 太複雜, 需優化
         if ($(".role_selected").length == 1) {
-            if (!($(this).hasClass("checked"))) {
-                $(this).addClass("checked");
-                
-                $(".role_selected").find(".roleInfo").attr("level", $(this).attr("level"));
-                $(".role_selected").find(".roleInfo").find(".roleName").text($(this).find("name").text());
-                $(".role_selected").find(".roleInfo").find(".roleGroup").text($(this).find("group").text());
-                $(".role_selected").siblings(".S1").find(".skillLevel").text($(this).attr("skillLevel"));
-                $(".role_selected").siblings(".S1").find(".skillName").text($(this).attr("skillName"));
-                $(".role_selected").removeClass("role_selected");
-            } else {
-                $(this).removeClass("checked");
-            }
+            $(this).addClass("checked");
+            
+            $(".role_selected").css("background-image", `url('${$(this).attr("image")}')`);
+            $(".role_selected").find(".roleInfo").attr("level", $(this).attr("level"));
+            $(".role_selected").find(".roleInfo").find(".roleName").text($(this).find("name").text());
+            $(".role_selected").find(".roleInfo").find(".roleGroup").text($(this).find("group").text());
+            $(".role_selected").siblings(".S1").find(".skillLevel").text($(this).attr("skillLevel"));
+            $(".role_selected").siblings(".S1").find(".skillName").text($(this).attr("skillName"));
+            $(".role_selected").removeClass("role_selected");
         }
     });
 
-    $("#skillList > ul > li").click(function (e) { // 太複雜, 需優化
-        if ($(".selected").length == 1) {
-            if (!($(this).hasClass("checked"))) {
-                $(this).addClass("checked");
+    $("#skillMenu > ul > li:not(.checked)").click(function (e) { // 太複雜, 需優化
+        if ($(".selected").length == 1 && !$(this).hasClass("checked")) {
+            console.log("123");
+            $(this).addClass("checked");
 
-                $(".selected").attr("index", $(this).attr("index"));
-                $(".selected").find(".skillLevel").text($(this).attr("level"));
-                $(".selected").find(".skillName").text($(this).find("name").text());
-                $(".selected").removeClass("selected");
-            } else {
-                $(this).removeClass("checked");
-            }
+            $(".selected").attr("index", $(this).attr("index"));
+            $(".selected").find(".skillLevel").text($(this).attr("level"));
+            $(".selected").find(".skillName").text($(this).find("name").text());
+            $(".selected").removeClass("selected");
         }
     });
+
 });

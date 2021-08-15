@@ -1,8 +1,9 @@
 .list {
     position: relative;
     text-align: center;
-    margin: auto 1rem;
+    margin: .2rem 1rem;
     border: 1px #000 solid;
+    height: 100%;
 
     background-color: var(--color-18-8);
     color: var(--color-18-0);
@@ -16,6 +17,7 @@
     height: 7.5rem;
     overflow-x: hidden;
     overflow-y: scroll;
+    perspective: 1px;
 }
 .list > ul::-webkit-scrollbar {display: none;}
 

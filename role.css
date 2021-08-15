@@ -1,0 +1,37 @@
+
+.container {
+    display: inline-block;
+    position: relative;
+    margin-top: 0px;
+    padding: 0 0.5rem;
+    width: 15rem;
+    height: 100%;
+    background-color: #313131;
+}
+
+.rank {
+    display: none;
+}
+.role {
+    position: relative;
+    display: inline-block;
+    vertical-align: bottom;
+
+    width: 4.5rem;
+    height: 6.4rem;
+    background-color: var(--color-18-7);
+
+    border: 1px rgba(0, 0, 0, 1) solid;
+
+    background-image: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.role_selected {
+    border: 1px solid yellow;
+}
+
+.skillList {
+    display: inline-block;
+}
+
