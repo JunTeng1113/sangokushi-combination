@@ -91,8 +91,8 @@ $(document).ready(function () {
             $(".role_selected").find(".roleInfo").attr("level", $(this).attr("level"));
             $(".role_selected").find(".roleInfo").find(".roleName").text($(this).find("name").text());
             $(".role_selected").find(".roleInfo").find(".roleGroup").text($(this).find("group").text());
-            $(".role_selected").siblings(".S1").find(".skillLevel").text($(this).attr("skillLevel"));
-            $(".role_selected").siblings(".S1").find(".skillName").text($(this).attr("skillName"));
+            $(".role_selected").siblings(".skillList").find(".S1").find(".skillLevel").text($(this).attr("skillLevel"));
+            $(".role_selected").siblings(".skillList").find(".S1").find(".skillName").text($(this).attr("skillName"));
             $(".role_selected").removeClass("role_selected");
         }
     });
