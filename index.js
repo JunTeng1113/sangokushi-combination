@@ -87,6 +87,7 @@ $(document).ready(function () {
         if ($(".role_selected").length == 1) {
             $(this).addClass("checked");
             
+            $(".role_selected").text($(this).find("name").text());
             $(".role_selected").css("background-image", `url('${$(this).attr("image")}')`);
             $(".role_selected").find(".roleInfo").attr("level", $(this).attr("level"));
             $(".role_selected").find(".roleInfo").find(".roleName").text($(this).find("name").text());
