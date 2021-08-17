@@ -1362,5 +1362,93 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png"
+  },
+  {
+    "level": 5,
+    "group": "群",
+    "name": "袁術",
+    "skill__level": "S",
+    "skill__name": "",
+    "skill__type": "",
+    "skill__probability": "",
+    "skill__description": "",
+    "image": "./roleImages/{name}.png"
+  },
+  {
+    "level": 5,
+    "group": "魏",
+    "name": "苟攸",
+    "skill__level": "S",
+    "skill__name": "",
+    "skill__type": "",
+    "skill__probability": "",
+    "skill__description": "",
+    "image": "./roleImages/{name}.png"
+  },
+  {
+    "level": 5,
+    "group": "蜀",
+    "name": "嚴顏",
+    "skill__level": "S",
+    "skill__name": "",
+    "skill__type": "",
+    "skill__probability": "",
+    "skill__description": "",
+    "image": "./roleImages/{name}.png"
+  },
+  {
+    "level": 5,
+    "group": "蜀",
+    "name": "姜維",
+    "skill__level": "S",
+    "skill__name": "",
+    "skill__type": "",
+    "skill__probability": "",
+    "skill__description": "",
+    "image": "./roleImages/{name}.png"
+  },
+  {
+    "level": 5,
+    "group": "吳",
+    "name": "周泰",
+    "skill__level": "S",
+    "skill__name": "",
+    "skill__type": "",
+    "skill__probability": "",
+    "skill__description": "",
+    "image": "./roleImages/{name}.png"
+  },
+  {
+    "level": 5,
+    "group": "吳",
+    "name": "陸抗",
+    "skill__level": "S",
+    "skill__name": "",
+    "skill__type": "",
+    "skill__probability": "",
+    "skill__description": "",
+    "image": "./roleImages/{name}.png"
+  },
+  {
+    "level": 5,
+    "group": "群",
+    "name": "高覽",
+    "skill__level": "S",
+    "skill__name": "",
+    "skill__type": "",
+    "skill__probability": "",
+    "skill__description": "",
+    "image": "./roleImages/{name}.png"
+  },
+  {
+    "level": 5,
+    "group": "魏",
+    "name": "張春華",
+    "skill__level": "S",
+    "skill__name": "",
+    "skill__type": "",
+    "skill__probability": "",
+    "skill__description": "",
+    "image": "./roleImages/{name}.png"
   }
 ]
