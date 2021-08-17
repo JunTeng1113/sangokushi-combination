@@ -1,9 +1,8 @@
 .list {
     position: relative;
     text-align: center;
-    margin: .2rem 1rem;
+    margin: .2rem 0;
     border: 1px #000 solid;
-    height: 100%;
 
     background-color: var(--color-18-8);
     color: var(--color-18-0);
@@ -14,7 +13,7 @@
     list-style-type: none;
     margin: 0;
     padding: 15px 0;
-    height: 7.5rem;
+    height: 10rem;
     overflow-x: hidden;
     overflow-y: scroll;
     perspective: 1px;

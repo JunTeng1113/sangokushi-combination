@@ -109,4 +109,30 @@ $(document).ready(function () {
         }
     });
 
+    $("#searchRole").keydown(function (e) { 
+        const filter = $(this).val();
+        const list = $("#roleMenu ul li");
+        list.each(function (index, element) {
+            console.log(element.innerHTML.indexOf(filter));
+            if (element.innerHTML.indexOf(filter) >= 0) {
+                $(element).css("display", "list-item");
+            } else {
+                $(element).css("display", "none");
+            }
+            
+        });
+    });
+    $("#searchSkill").keydown(function (e) { 
+        const filter = $(this).val();
+        const list = $("#skillMenu ul li");
+        list.each(function (index, element) {
+            console.log(element.innerHTML.indexOf(filter));
+            if (element.innerHTML.indexOf(filter) >= 0) {
+                $(element).css("display", "list-item");
+            } else {
+                $(element).css("display", "none");
+            }
+            
+        });
+    });
 });

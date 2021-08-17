@@ -158,3 +158,20 @@ div {
 .selected {
     border: 1px solid yellow;
 }
+
+.menu {
+    padding: .2rem 1rem;
+}
+.searchbar {
+    height: 2rem;
+    background-color: var(--color-18-9);
+    color: var(--color-18-0);
+}
+.searchbar > input {
+    position: relative;
+
+    margin: 0 .5rem;
+    border: 1px var(--color-18-7) solid;
+    width: calc(5rem);
+    background-color: var(--color-18-8);
+}
