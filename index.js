@@ -40,7 +40,7 @@ $(document).ready(function () {
         }
     });
 
-    $(".rolefield").click(function (e) { // 太複雜, 需優化
+    $(".roleField").click(function (e) { // 太複雜, 需優化
         if (!($(this).hasClass("role_selected"))) {
             $(".role_selected").removeClass("role_selected");
             $(this).addClass("role_selected");
@@ -48,7 +48,7 @@ $(document).ready(function () {
         } else {
             $(".role_selected").removeClass("role_selected");
         }
-        $(".rolefield").dblclick(function (e) { 
+        $(".roleField").dblclick(function (e) { 
             if (!($(this).text() == "")) {
                 $(`#roleMenu > ul > li[index="${$(this).attr("index")}"]`).removeClass("checked");
 
