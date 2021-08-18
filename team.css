@@ -1,6 +1,6 @@
 .team {
-    margin: .2rem;
-    min-width: 50rem;
+    margin: .2rem .2rem 0 .2rem;
+    width: max-content;
     height: 7rem;
     background-color: var(--color-18-7);
 }

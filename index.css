@@ -39,6 +39,12 @@ div {
     border-bottom: 1px solid yellow;
 }
 
+.roleField {
+    text-align: center;
+    font-weight: bold;
+    color: var(--color-01-4);
+}
+
 .roleField > .roleInfo {
     display: flex;
     position: absolute;

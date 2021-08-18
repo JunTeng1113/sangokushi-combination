@@ -7,13 +7,26 @@ $(document).ready(function () {
         dataType: "json",
         success: function (response) {
             response.forEach(function(element, index) {
-                $("#skillMenu > ul").append(`<li 
+                let icon = "";
+                switch (element['type']) {
+                    case "陣法":
+                        icon = `<i class="fas fa-border-all"></i>`;
+                        break;
+
+                    case "兵種":
+                        icon = `<i class="fas fa-horse"></i>`;
+                        break;
+                
+                    default:
+                        break;
+                }
+                $(`.skillList ul[type~="${element['type']}"]`).append(`<li 
                 class="skill" 
                 index="${index}" 
                 level="${element['level']}"
                 type="${element['type']}"
                 code="${element['code']}"
-                ><name>${element['name']}</name></li>`);
+                >${icon}<name>${element['name']}</name></li>`);
             });
         }
     });
@@ -26,9 +39,10 @@ $(document).ready(function () {
         success: function (response) {
             response.forEach(function(element, index) {
                 const image = element['image'].replace("{name}", element['name']);
-                $("#roleMenu > ul").append(`<li 
+                $(`.roleList ul[group="${element['group']}"]`).append(`<li 
                     class="role" 
-                    index="${index}" 
+                    index="${index}"
+                    cost="${element['cost']}" 
                     level="${element['level']}" 
                     skillLevel="${element['skill__level']}" 
                     skillName="${element['skill__name']}" 
@@ -50,7 +64,7 @@ $(document).ready(function () {
         }
         $(".roleField").dblclick(function (e) { 
             if (!($(this).text() == "")) {
-                $(`#roleMenu > ul > li[index="${$(this).attr("index")}"]`).removeClass("checked");
+                $(`.list .role[index="${$(this).attr("index")}"]`).removeClass("checked");
 
                 $(this).attr("index", "");
                 $(this).css("background-image", ``);
@@ -70,7 +84,7 @@ $(document).ready(function () {
         }
         $(".S2, .S3").dblclick(function (e) { 
             if (!($(this).find(".skillName").text() == "")) {
-                $(`#skillMenu > ul > li[index="${$(this).attr("index")}"]`).removeClass("checked");
+                $(`.list .skill[index="${$(this).attr("index")}"]`).removeClass("checked");
 
                 $(this).attr("index", "");
                 $(this).find(".skillLevel").text("");
@@ -79,15 +93,16 @@ $(document).ready(function () {
             }
         });
     });
-    $("#roleMenu > ul > li:not(.checked)").click(function (e) { // 太複雜, 需優化
-        if ($(".role_selected").length == 1) {
+    $(".list .role").click(function (e) { // 太複雜, 需優化
+        if ($(".role_selected").length == 1 && !$(this).hasClass("checked")) {
             if (!($(".role_selected").text() == "")) {
-                $(`#roleMenu > ul > li[index="${$(".role_selected").attr("index")}"]`).removeClass("checked");
+                $(`.list .role[index="${$(".role_selected").attr("index")}"]`).removeClass("checked");
             }
             $(this).addClass("checked");
             
-            $(".role_selected").text($(this).find("name").text());
             $(".role_selected").css("background-image", `url('${$(this).attr("image")}')`);
+            $(".role_selected").text(`${$(this).find("name").text()} ${$(this).attr("cost")}`);
+            
             $(".role_selected").attr("index", $(this).attr("index"));
             $(".role_selected").find(".roleInfo").attr("level", $(this).attr("level"));
             $(".role_selected").find(".roleInfo").find(".roleName").text($(this).find("name").text());
@@ -98,10 +113,10 @@ $(document).ready(function () {
         }
     });
 
-    $("#skillMenu > ul > li:not(.checked)").click(function (e) { // 太複雜, 需優化
+    $(".list .skill").click(function (e) { // 太複雜, 需優化
         if ($(".selected").length == 1 && !$(this).hasClass("checked")) {
             if (!($(".selected").text() == "")) {
-                $(`#skillMenu > ul > li[index="${$(".selected").attr("index")}"]`).removeClass("checked");
+                $(`.list .skill[index="${$(".selected").attr("index")}"]`).removeClass("checked");
             }
             $(this).addClass("checked");
 
@@ -110,33 +125,6 @@ $(document).ready(function () {
             $(".selected").find(".skillName").text($(this).find("name").text());
             $(".selected").removeClass("selected");
         }
-    });
-
-    $("#searchRole").keydown(function (e) { 
-        const filter = $(this).val();
-        const list = $("#roleMenu ul li");
-        list.each(function (index, element) {
-            console.log(element.innerHTML.indexOf(filter));
-            if (element.innerHTML.indexOf(filter) >= 0) {
-                $(element).css("display", "list-item");
-            } else {
-                $(element).css("display", "none");
-            }
-            
-        });
-    });
-    $("#searchSkill").keydown(function (e) { 
-        const filter = $(this).val();
-        const list = $("#skillMenu ul li");
-        list.each(function (index, element) {
-            console.log(element.innerHTML.indexOf(filter));
-            if (element.innerHTML.indexOf(filter) >= 0) {
-                $(element).css("display", "list-item");
-            } else {
-                $(element).css("display", "none");
-            }
-            
-        });
     });
 
 
@@ -162,22 +150,4 @@ $(document).ready(function () {
         });
     });
 
-    $(`input[name="filterRole"]`).change(function (e) { 
-        $(".role").css("display", "none");
-        console.log($(`input[name="filterRole"]:checked`).attr("id"));
-        const checked = $(`input[name="filterRole"]:checked`);
-        checked.each(function (index, element) {
-            $(`.role[group="${$(element).attr("id")}"]`).css("display", "");
-        });
-        
-    });
-    $(`input[name="filterSkill"]`).change(function (e) { 
-        $(".skill").css("display", "none");
-        console.log($(`input[name="filterSkill"]:checked`).attr("id"));
-        const checked = $(`input[name="filterSkill"]:checked`);
-        checked.each(function (index, element) {
-            $(`.skill[type="${$(element).attr("id")}"]`).css("display", "");
-        });
-        
-    });
 });

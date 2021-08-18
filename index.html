@@ -28,7 +28,7 @@
                         <div class="roleName"></div>
                     </div>
                 </div>
-                <div class="skillList">
+                <div class="skills">
                     <div class="skillField S1">
                         <div class="skillLevel"></div>
                         <div class="skillName"></div>
@@ -51,7 +51,7 @@
                         <div class="roleName"></div>
                     </div>
                 </div>
-                <div class="skillList">
+                <div class="skills">
                     <div class="skillField S1">
                         <div class="skillLevel"></div>
                         <div class="skillName"></div>
@@ -74,7 +74,7 @@
                         <div class="roleName"></div>
                     </div>
                 </div>
-                <div class="skillList">
+                <div class="skills">
                     <div class="skillField S1">
                         <div class="skillLevel"></div>
                         <div class="skillName"></div>
@@ -99,7 +99,7 @@
                         <div class="roleName"></div>
                     </div>
                 </div>
-                <div class="skillList">
+                <div class="skills">
                     <div class="skillField S1">
                         <div class="skillLevel"></div>
                         <div class="skillName"></div>
@@ -122,7 +122,7 @@
                         <div class="roleName"></div>
                     </div>
                 </div>
-                <div class="skillList">
+                <div class="skills">
                     <div class="skillField S1">
                         <div class="skillLevel"></div>
                         <div class="skillName"></div>
@@ -145,7 +145,7 @@
                         <div class="roleName"></div>
                     </div>
                 </div>
-                <div class="skillList">
+                <div class="skills">
                     <div class="skillField S1">
                         <div class="skillLevel"></div>
                         <div class="skillName"></div>
@@ -170,7 +170,7 @@
                         <div class="roleName"></div>
                     </div>
                 </div>
-                <div class="skillList">
+                <div class="skills">
                     <div class="skillField S1">
                         <div class="skillLevel"></div>
                         <div class="skillName"></div>
@@ -193,7 +193,7 @@
                         <div class="roleName"></div>
                     </div>
                 </div>
-                <div class="skillList">
+                <div class="skills">
                     <div class="skillField S1">
                         <div class="skillLevel"></div>
                         <div class="skillName"></div>
@@ -216,7 +216,7 @@
                         <div class="roleName"></div>
                     </div>
                 </div>
-                <div class="skillList">
+                <div class="skills">
                     <div class="skillField S1">
                         <div class="skillLevel"></div>
                         <div class="skillName"></div>
@@ -241,7 +241,7 @@
                         <div class="roleName"></div>
                     </div>
                 </div>
-                <div class="skillList">
+                <div class="skills">
                     <div class="skillField S1">
                         <div class="skillLevel"></div>
                         <div class="skillName"></div>
@@ -264,7 +264,7 @@
                         <div class="roleName"></div>
                     </div>
                 </div>
-                <div class="skillList">
+                <div class="skills">
                     <div class="skillField S1">
                         <div class="skillLevel"></div>
                         <div class="skillName"></div>
@@ -287,7 +287,7 @@
                         <div class="roleName"></div>
                     </div>
                 </div>
-                <div class="skillList">
+                <div class="skills">
                     <div class="skillField S1">
                         <div class="skillLevel"></div>
                         <div class="skillName"></div>
@@ -312,7 +312,7 @@
                         <div class="roleName"></div>
                     </div>
                 </div>
-                <div class="skillList">
+                <div class="skills">
                     <div class="skillField S1">
                         <div class="skillLevel"></div>
                         <div class="skillName"></div>
@@ -335,7 +335,7 @@
                         <div class="roleName"></div>
                     </div>
                 </div>
-                <div class="skillList">
+                <div class="skills">
                     <div class="skillField S1">
                         <div class="skillLevel"></div>
                         <div class="skillName"></div>
@@ -358,7 +358,7 @@
                         <div class="roleName"></div>
                     </div>
                 </div>
-                <div class="skillList">
+                <div class="skills">
                     <div class="skillField S1">
                         <div class="skillLevel"></div>
                         <div class="skillName"></div>
@@ -384,35 +384,27 @@
             </form>
         </div>
         <div class="menu">
-            <div class="searchbar">搜尋<input id="searchRole" type="text"><i class="fas fa-filter filter">
-                <div>
-                    <input type="checkbox" name="filterRole" id="魏" checked><label class="魏" for="魏">魏</label>
-                    <input type="checkbox" name="filterRole" id="吳" checked><label class="吳" for="吳">吳</label>
-                    <input type="checkbox" name="filterRole" id="蜀" checked><label class="蜀" for="蜀">蜀</label>
-                    <input type="checkbox" name="filterRole" id="群" checked><label class="群" for="群">群</label>
-                </div>
-            </i></div>
-            <div id="roleMenu" class="list">武將
+            <div id="roleMenu">武將
                 <div id="shadow_top"></div>
-                <ul></ul>
+                <div class="roleList">
+                    <ul class="list" group="魏"></ul>
+                    <ul class="list" group="蜀"></ul>
+                    <ul class="list" group="吳"></ul>
+                    <ul class="list" group="群"></ul>
+                </div>
                 <div id="shadow_bottom"></div>
             </div>
         </div>
         <div class="menu">
-            <div class="searchbar">搜尋<input id="searchSkill" type="text"><i class="fas fa-filter filter">
-                <div>
-                    <input type="checkbox" name="filterSkill" id="指揮" checked><label for="指揮">指揮</label>
-                    <input type="checkbox" name="filterSkill" id="主動" checked><label for="主動">主動</label>
-                    <input type="checkbox" name="filterSkill" id="突擊" checked><label for="突擊">突擊</label>
-                    <input type="checkbox" name="filterSkill" id="被動" checked><label for="被動">被動</label>
-                    <input type="checkbox" name="filterSkill" id="兵種" checked><label for="兵種">兵種</label>
-                    <input type="checkbox" name="filterSkill" id="陣法" checked><label for="陣法">陣法</label>
-                    <input type="checkbox" name="filterSkill" id="內政" checked><label for="內政">內政</label>
-                </div>
-            </i></div>
-            <div id="skillMenu" class="list">戰法
+            <div id="skillMenu">戰法
                 <div id="shadow_top"></div>
-                <ul></ul>
+                <div class="skillList">
+                    <ul class="list" type="指揮"></ul>
+                    <ul class="list" type="主動"></ul>
+                    <ul class="list" type="突擊"></ul>
+                    <ul class="list" type="被動"></ul>
+                    <ul class="list" type="兵種 陣法"></ul>
+                </div>
                 <div id="shadow_bottom"></div>
             </div>
         </div>
