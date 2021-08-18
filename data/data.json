@@ -1,6 +1,7 @@
 [
   {
     "level": 5,
+    "cost": 7,
     "group": "魏",
     "name": "典韋",
     "skill__level": "S",
@@ -9,10 +10,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "000"
+    "code": "g8"
   },
   {
     "level": 5,
+    "cost": 7,
     "group": "魏",
     "name": "曹操",
     "skill__level": "S",
@@ -21,10 +23,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "001"
+    "code": "g9"
   },
   {
     "level": 5,
+    "cost": 7,
     "group": "蜀",
     "name": "劉備",
     "skill__level": "S",
@@ -33,10 +36,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "002"
+    "code": "ga"
   },
   {
     "level": 5,
+    "cost": 7,
     "group": "蜀",
     "name": "馬超",
     "skill__level": "S",
@@ -45,10 +49,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "003"
+    "code": "gb"
   },
   {
     "level": 5,
+    "cost": 7,
     "group": "蜀",
     "name": "諸葛亮",
     "skill__level": "S",
@@ -57,10 +62,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "004"
+    "code": "gc"
   },
   {
     "level": 5,
+    "cost": 7,
     "group": "蜀",
     "name": "關羽",
     "skill__level": "S",
@@ -69,10 +75,11 @@
     "skill__probability": "35.00%",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "005"
+    "code": "gd"
   },
   {
     "level": 5,
+    "cost": 7,
     "group": "吳",
     "name": "張昭",
     "skill__level": "S",
@@ -81,10 +88,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "006"
+    "code": "ge"
   },
   {
     "level": 5,
+    "cost": 7,
     "group": "吳",
     "name": "陸遜",
     "skill__level": "S",
@@ -93,10 +101,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "007"
+    "code": "gf"
   },
   {
     "level": 5,
+    "cost": 7,
     "group": "群",
     "name": "孟獲",
     "skill__level": "S",
@@ -105,10 +114,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "008"
+    "code": "gg"
   },
   {
     "level": 5,
+    "cost": 7,
     "group": "群",
     "name": "于吉",
     "skill__level": "S",
@@ -117,10 +127,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "009"
+    "code": "gh"
   },
   {
     "level": 5,
+    "cost": 7,
     "group": "群",
     "name": "董卓",
     "skill__level": "S",
@@ -129,10 +140,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "00A"
+    "code": "gi"
   },
   {
     "level": 5,
+    "cost": 7,
     "group": "群",
     "name": "呂布",
     "skill__level": "S",
@@ -141,10 +153,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "00B"
+    "code": "gj"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "魏",
     "name": "陳群",
     "skill__level": "S",
@@ -153,10 +166,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "00C"
+    "code": "gk"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "魏",
     "name": "曹植",
     "skill__level": "S",
@@ -165,10 +179,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "00D"
+    "code": "gl"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "魏",
     "name": "許禇",
     "skill__level": "S",
@@ -177,10 +192,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "00E"
+    "code": "gm"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "魏",
     "name": "張郃",
     "skill__level": "S",
@@ -189,10 +205,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "00F"
+    "code": "gn"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "魏",
     "name": "曹仁",
     "skill__level": "S",
@@ -201,10 +218,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "010"
+    "code": "go"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "魏",
     "name": "甄姬",
     "skill__level": "S",
@@ -213,10 +231,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "011"
+    "code": "gp"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "魏",
     "name": "程昱",
     "skill__level": "S",
@@ -225,22 +244,24 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "012"
+    "code": "gq"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "魏",
-    "name": "苟或",
+    "name": "荀彧",
     "skill__level": "S",
     "skill__name": "",
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "013"
+    "code": "gr"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "魏",
     "name": "徐晃",
     "skill__level": "S",
@@ -249,10 +270,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "014"
+    "code": "gs"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "魏",
     "name": "夏侯惇",
     "skill__level": "S",
@@ -261,10 +283,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "015"
+    "code": "gt"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "魏",
     "name": "龐德",
     "skill__level": "S",
@@ -273,10 +296,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "016"
+    "code": "gu"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "魏",
     "name": "鍾會",
     "skill__level": "S",
@@ -285,10 +309,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "017"
+    "code": "gv"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "蜀",
     "name": "陳到",
     "skill__level": "S",
@@ -297,10 +322,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "018"
+    "code": "gw"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "蜀",
     "name": "黃忠",
     "skill__level": "S",
@@ -309,10 +335,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "019"
+    "code": "gx"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "蜀",
     "name": "趙雲",
     "skill__level": "S",
@@ -321,10 +348,11 @@
     "skill__probability": "100.00%",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "01A"
+    "code": "gy"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "蜀",
     "name": "張飛",
     "skill__level": "S",
@@ -333,10 +361,11 @@
     "skill__probability": "100.00%",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "01B"
+    "code": "gz"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "吳",
     "name": "孫權",
     "skill__level": "S",
@@ -345,34 +374,37 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "01C"
+    "code": "gA"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "吳",
     "name": "甘寧",
     "skill__level": "S",
     "skill__name": "錦帆百翎",
-    "skill__type": "",
+    "skill__type": "被動",
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "01D"
+    "code": "gB"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "吳",
     "name": "呂蒙",
     "skill__level": "S",
     "skill__name": "白衣渡江",
-    "skill__type": "",
+    "skill__type": "被動",
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "01E"
+    "code": "gC"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "吳",
     "name": "太史慈",
     "skill__level": "S",
@@ -381,10 +413,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "01F"
+    "code": "gD"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "吳",
     "name": "孫堅",
     "skill__level": "S",
@@ -393,10 +426,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "020"
+    "code": "gE"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "吳",
     "name": "周瑜",
     "skill__level": "S",
@@ -405,10 +439,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "021"
+    "code": "gF"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "群",
     "name": "田豐",
     "skill__level": "S",
@@ -417,10 +452,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "022"
+    "code": "gG"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "群",
     "name": "呂玲綺",
     "skill__level": "S",
@@ -429,10 +465,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "023"
+    "code": "gH"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "群",
     "name": "祝融夫人",
     "skill__level": "S",
@@ -441,22 +478,24 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "024"
+    "code": "gI"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "群",
-    "name": "元突骨",
+    "name": "兀突骨",
     "skill__level": "S",
     "skill__name": "",
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "025"
+    "code": "gJ"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "群",
     "name": "公孫瓚",
     "skill__level": "S",
@@ -465,10 +504,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "026"
+    "code": "gK"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "群",
     "name": "袁紹",
     "skill__level": "S",
@@ -477,10 +517,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "027"
+    "code": "gL"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "群",
     "name": "張角",
     "skill__level": "S",
@@ -489,10 +530,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "028"
+    "code": "gM"
   },
   {
     "level": 5,
+    "cost": 5,
     "group": "魏",
     "name": "曹純",
     "skill__level": "S",
@@ -501,10 +543,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "029"
+    "code": "gN"
   },
   {
     "level": 5,
+    "cost": 5,
     "group": "魏",
     "name": "于禁",
     "skill__level": "S",
@@ -513,10 +556,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "02A"
+    "code": "gO"
   },
   {
     "level": 5,
+    "cost": 5,
     "group": "魏",
     "name": "樂進",
     "skill__level": "S",
@@ -525,10 +569,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "02B"
+    "code": "gP"
   },
   {
     "level": 5,
+    "cost": 5,
     "group": "魏",
     "name": "鄧艾",
     "skill__level": "S",
@@ -537,10 +582,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "02C"
+    "code": "gQ"
   },
   {
     "level": 5,
+    "cost": 5,
     "group": "魏",
     "name": "夏侯淵",
     "skill__level": "S",
@@ -549,22 +595,24 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "02D"
+    "code": "gR"
   },
   {
     "level": 5,
+    "cost": 5,
     "group": "魏",
     "name": "郭嘉",
     "skill__level": "S",
     "skill__name": "十勝十敗",
-    "skill__type": "",
+    "skill__type": "被動",
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "02E"
+    "code": "gS"
   },
   {
     "level": 5,
+    "cost": 5,
     "group": "蜀",
     "name": "王平",
     "skill__level": "S",
@@ -573,10 +621,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "02F"
+    "code": "gT"
   },
   {
     "level": 5,
+    "cost": 5,
     "group": "蜀",
     "name": "徐庶",
     "skill__level": "S",
@@ -585,10 +634,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "030"
+    "code": "gU"
   },
   {
     "level": 5,
+    "cost": 5,
     "group": "吳",
     "name": "黃蓋",
     "skill__level": "S",
@@ -597,10 +647,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "031"
+    "code": "gV"
   },
   {
     "level": 5,
+    "cost": 5,
     "group": "吳",
     "name": "程普",
     "skill__level": "S",
@@ -609,10 +660,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "032"
+    "code": "gW"
   },
   {
     "level": 5,
+    "cost": 5,
     "group": "吳",
     "name": "孫策",
     "skill__level": "S",
@@ -621,10 +673,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "033"
+    "code": "gX"
   },
   {
     "level": 5,
+    "cost": 5,
     "group": "群",
     "name": "李儒",
     "skill__level": "S",
@@ -633,10 +686,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "034"
+    "code": "gY"
   },
   {
     "level": 5,
+    "cost": 5,
     "group": "群",
     "name": "高順",
     "skill__level": "S",
@@ -645,10 +699,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "035"
+    "code": "gZ"
   },
   {
     "level": 5,
+    "cost": 5,
     "group": "群",
     "name": "馬騰",
     "skill__level": "S",
@@ -657,10 +712,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "036"
+    "code": "h0"
   },
   {
     "level": 5,
+    "cost": 5,
     "group": "群",
     "name": "文醜",
     "skill__level": "S",
@@ -669,10 +725,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "037"
+    "code": "h1"
   },
   {
     "level": 5,
+    "cost": 5,
     "group": "群",
     "name": "華雄",
     "skill__level": "S",
@@ -681,10 +738,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "038"
+    "code": "h2"
   },
   {
     "level": 5,
+    "cost": 5,
     "group": "群",
     "name": "顏良",
     "skill__level": "S",
@@ -693,10 +751,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "039"
+    "code": "h3"
   },
   {
     "level": 5,
+    "cost": 5,
     "group": "群",
     "name": "華陀",
     "skill__level": "S",
@@ -705,10 +764,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "03A"
+    "code": "h4"
   },
   {
     "level": 5,
+    "cost": 5,
     "group": "群",
     "name": "左慈",
     "skill__level": "S",
@@ -717,10 +777,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "03B"
+    "code": "h5"
   },
   {
     "level": 5,
+    "cost": 4,
     "group": "群",
     "name": "曹丕",
     "skill__level": "S",
@@ -729,10 +790,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "03C"
+    "code": "h6"
   },
   {
     "level": 5,
+    "cost": 4,
     "group": "蜀",
     "name": "黃月英",
     "skill__level": "S",
@@ -741,10 +803,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "03D"
+    "code": "h7"
   },
   {
     "level": 5,
+    "cost": 4,
     "group": "蜀",
     "name": "法正",
     "skill__level": "S",
@@ -753,10 +816,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "03E"
+    "code": "h8"
   },
   {
     "level": 5,
+    "cost": 4,
     "group": "吳",
     "name": "大喬",
     "skill__level": "S",
@@ -765,10 +829,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "03F"
+    "code": "h9"
   },
   {
     "level": 5,
+    "cost": 4,
     "group": "群",
     "name": "貂蟬",
     "skill__level": "S",
@@ -777,10 +842,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "040"
+    "code": "ha"
   },
   {
     "level": 5,
+    "cost": 4,
     "group": "群",
     "name": "司馬徽",
     "skill__level": "S",
@@ -789,10 +855,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "041"
+    "code": "hb"
   },
   {
     "level": 5,
+    "cost": 3,
     "group": "吳",
     "name": "小喬",
     "skill__level": "S",
@@ -801,10 +868,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "042"
+    "code": "hc"
   },
   {
     "level": 5,
+    "cost": 3,
     "group": "群",
     "name": "蔡文姬",
     "skill__level": "S",
@@ -813,10 +881,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "043"
+    "code": "hd"
   },
   {
     "level": 4,
+    "cost": 6,
     "group": "魏",
     "name": "劉曄",
     "skill__level": "A",
@@ -825,10 +894,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "044"
+    "code": "he"
   },
   {
     "level": 4,
+    "cost": 6,
     "group": "蜀",
     "name": "黃權",
     "skill__level": "A",
@@ -837,10 +907,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "045"
+    "code": "hf"
   },
   {
     "level": 4,
+    "cost": 6,
     "group": "吳",
     "name": "陳武",
     "skill__level": "A",
@@ -849,10 +920,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "046"
+    "code": "hg"
   },
   {
     "level": 4,
+    "cost": 6,
     "group": "吳",
     "name": "朱桓",
     "skill__level": "A",
@@ -861,10 +933,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "047"
+    "code": "hh"
   },
   {
     "level": 4,
+    "cost": 6,
     "group": "吳",
     "name": "韓當",
     "skill__level": "A",
@@ -873,10 +946,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "048"
+    "code": "hi"
   },
   {
     "level": 4,
+    "cost": 6,
     "group": "群",
     "name": "胡車兒",
     "skill__level": "A",
@@ -885,10 +959,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "049"
+    "code": "hj"
   },
   {
     "level": 4,
+    "cost": 6,
     "group": "群",
     "name": "逢紀",
     "skill__level": "A",
@@ -897,10 +972,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "04A"
+    "code": "hk"
   },
   {
     "level": 4,
+    "cost": 6,
     "group": "群",
     "name": "紀靈",
     "skill__level": "A",
@@ -909,10 +985,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "04B"
+    "code": "hl"
   },
   {
     "level": 4,
+    "cost": 6,
     "group": "群",
     "name": "張繡",
     "skill__level": "A",
@@ -921,10 +998,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "04C"
+    "code": "hm"
   },
   {
     "level": 4,
+    "cost": 6,
     "group": "群",
     "name": "朱儁",
     "skill__level": "A",
@@ -933,10 +1011,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "04D"
+    "code": "hn"
   },
   {
     "level": 4,
+    "cost": 5,
     "group": "魏",
     "name": "文聘",
     "skill__level": "A",
@@ -945,10 +1024,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "04E"
+    "code": "ho"
   },
   {
     "level": 4,
+    "cost": 5,
     "group": "魏",
     "name": "曹彰",
     "skill__level": "A",
@@ -957,10 +1037,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "04F"
+    "code": "hp"
   },
   {
     "level": 4,
+    "cost": 5,
     "group": "魏",
     "name": "曹洪",
     "skill__level": "A",
@@ -969,10 +1050,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "050"
+    "code": "hq"
   },
   {
     "level": 4,
+    "cost": 5,
     "group": "魏",
     "name": "曹真",
     "skill__level": "A",
@@ -981,10 +1063,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "051"
+    "code": "hr"
   },
   {
     "level": 4,
+    "cost": 5,
     "group": "蜀",
     "name": "周倉",
     "skill__level": "A",
@@ -993,10 +1076,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "052"
+    "code": "hs"
   },
   {
     "level": 4,
+    "cost": 5,
     "group": "蜀",
     "name": "劉封",
     "skill__level": "A",
@@ -1005,10 +1089,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "053"
+    "code": "ht"
   },
   {
     "level": 4,
+    "cost": 5,
     "group": "蜀",
     "name": "關平",
     "skill__level": "A",
@@ -1017,10 +1102,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "054"
+    "code": "hu"
   },
   {
     "level": 4,
+    "cost": 5,
     "group": "蜀",
     "name": "馬謖",
     "skill__level": "A",
@@ -1029,10 +1115,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "055"
+    "code": "hv"
   },
   {
     "level": 4,
+    "cost": 5,
     "group": "蜀",
     "name": "廖化",
     "skill__level": "A",
@@ -1041,10 +1128,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "056"
+    "code": "hw"
   },
   {
     "level": 4,
+    "cost": 5,
     "group": "吳",
     "name": "董襲",
     "skill__level": "A",
@@ -1053,10 +1141,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "057"
+    "code": "hx"
   },
   {
     "level": 4,
+    "cost": 5,
     "group": "吳",
     "name": "將欽",
     "skill__level": "A",
@@ -1065,10 +1154,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "058"
+    "code": "hy"
   },
   {
     "level": 4,
+    "cost": 5,
     "group": "吳",
     "name": "丁奉",
     "skill__level": "A",
@@ -1077,10 +1167,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "059"
+    "code": "hz"
   },
   {
     "level": 4,
+    "cost": 5,
     "group": "吳",
     "name": "潘璋",
     "skill__level": "A",
@@ -1089,10 +1180,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "05A"
+    "code": "hA"
   },
   {
     "level": 4,
+    "cost": 5,
     "group": "群",
     "name": "孔融",
     "skill__level": "A",
@@ -1101,10 +1193,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "05B"
+    "code": "hB"
   },
   {
     "level": 4,
+    "cost": 5,
     "group": "群",
     "name": "郭汜",
     "skill__level": "A",
@@ -1113,10 +1206,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "05C"
+    "code": "hC"
   },
   {
     "level": 4,
+    "cost": 5,
     "group": "群",
     "name": "韓遂",
     "skill__level": "A",
@@ -1125,10 +1219,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "05D"
+    "code": "hD"
   },
   {
     "level": 4,
+    "cost": 5,
     "group": "群",
     "name": "張燕",
     "skill__level": "A",
@@ -1137,10 +1232,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "05E"
+    "code": "hE"
   },
   {
     "level": 4,
+    "cost": 5,
     "group": "群",
     "name": "張曼成",
     "skill__level": "A",
@@ -1149,10 +1245,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "05F"
+    "code": "hF"
   },
   {
     "level": 4,
+    "cost": 5,
     "group": "群",
     "name": "李傕",
     "skill__level": "A",
@@ -1161,10 +1258,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "060"
+    "code": "hG"
   },
   {
     "level": 4,
+    "cost": 5,
     "group": "群",
     "name": "審配",
     "skill__level": "A",
@@ -1173,10 +1271,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "061"
+    "code": "hH"
   },
   {
     "level": 4,
+    "cost": 5,
     "group": "群",
     "name": "皇甫嵩",
     "skill__level": "A",
@@ -1185,10 +1284,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "062"
+    "code": "hI"
   },
   {
     "level": 4,
+    "cost": 5,
     "group": "群",
     "name": "張梁",
     "skill__level": "A",
@@ -1197,10 +1297,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "063"
+    "code": "hJ"
   },
   {
     "level": 4,
+    "cost": 5,
     "group": "群",
     "name": "張任",
     "skill__level": "A",
@@ -1209,10 +1310,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "064"
+    "code": "hK"
   },
   {
     "level": 4,
+    "cost": 4,
     "group": "魏",
     "name": "王朗",
     "skill__level": "A",
@@ -1221,10 +1323,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "065"
+    "code": "hL"
   },
   {
     "level": 4,
+    "cost": 4,
     "group": "魏",
     "name": "郭淮",
     "skill__level": "A",
@@ -1233,10 +1336,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "066"
+    "code": "hM"
   },
   {
     "level": 4,
+    "cost": 4,
     "group": "蜀",
     "name": "馬良",
     "skill__level": "A",
@@ -1245,10 +1349,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "067"
+    "code": "hN"
   },
   {
     "level": 4,
+    "cost": 4,
     "group": "蜀",
     "name": "沙摩柯",
     "skill__level": "A",
@@ -1257,10 +1362,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "068"
+    "code": "hO"
   },
   {
     "level": 4,
+    "cost": 4,
     "group": "吳",
     "name": "徐盛",
     "skill__level": "A",
@@ -1269,10 +1375,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "069"
+    "code": "hP"
   },
   {
     "level": 4,
+    "cost": 4,
     "group": "群",
     "name": "郭圖",
     "skill__level": "A",
@@ -1281,10 +1388,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "06A"
+    "code": "hQ"
   },
   {
     "level": 4,
+    "cost": 4,
     "group": "群",
     "name": "管亥",
     "skill__level": "A",
@@ -1293,10 +1401,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "06B"
+    "code": "hR"
   },
   {
     "level": 4,
+    "cost": 3,
     "group": "魏",
     "name": "李典",
     "skill__level": "A",
@@ -1305,10 +1414,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "06C"
+    "code": "hS"
   },
   {
     "level": 4,
+    "cost": 3,
     "group": "群",
     "name": "張寶",
     "skill__level": "A",
@@ -1317,34 +1427,37 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "06D"
+    "code": "hT"
   },
   {
     "level": 5,
+    "cost": 7,
     "group": "魏",
     "name": "司馬懿",
     "skill__level": "S",
     "skill__name": "鷹視狼顧",
-    "skill__type": "",
+    "skill__type": "被動",
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "06E"
+    "code": "hU"
   },
   {
     "level": 5,
+    "cost": 7,
     "group": "魏",
     "name": "張遼",
     "skill__level": "S",
     "skill__name": "陷陣突襲",
-    "skill__type": "",
+    "skill__type": "被動",
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "06F"
+    "code": "hV"
   },
   {
     "level": 5,
+    "cost": 7,
     "group": "蜀",
     "name": "龐統",
     "skill__level": "S",
@@ -1353,22 +1466,24 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "070"
+    "code": "hW"
   },
   {
     "level": 5,
+    "cost": 7,
     "group": "吳",
     "name": "孫尚香",
     "skill__level": "S",
     "skill__name": "弓腰姬",
-    "skill__type": "",
+    "skill__type": "指揮",
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "071"
+    "code": "hX"
   },
   {
     "level": 5,
+    "cost": 7,
     "group": "吳",
     "name": "張紘",
     "skill__level": "S",
@@ -1377,10 +1492,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "072"
+    "code": "hY"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "蜀",
     "name": "馬雲祿",
     "skill__level": "S",
@@ -1389,10 +1505,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "073"
+    "code": "hZ"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "蜀",
     "name": "張姬",
     "skill__level": "S",
@@ -1401,10 +1518,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "074"
+    "code": "i0"
   },
   {
     "level": 5,
+    "cost": 4,
     "group": "群",
     "name": "陳宮",
     "skill__level": "S",
@@ -1413,10 +1531,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "075"
+    "code": "i1"
   },
   {
     "level": 5,
+    "cost": 7,
     "group": "魏",
     "name": "賈詡",
     "skill__level": "S",
@@ -1425,10 +1544,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "076"
+    "code": "i2"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "魏",
     "name": "郝昭",
     "skill__level": "S",
@@ -1437,10 +1557,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "077"
+    "code": "i3"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "吳",
     "name": "凌統",
     "skill__level": "S",
@@ -1449,22 +1570,24 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "078"
+    "code": "i4"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "吳",
     "name": "魯肅",
     "skill__level": "S",
-    "skill__name": "施貧好施",
+    "skill__name": "濟貧好施",
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "079"
+    "code": "i5"
   },
   {
     "level": 5,
+    "cost": 5,
     "group": "蜀",
     "name": "將琬",
     "skill__level": "S",
@@ -1473,10 +1596,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "07A"
+    "code": "i6"
   },
   {
     "level": 5,
+    "cost": 5,
     "group": "群",
     "name": "木鹿大王",
     "skill__level": "S",
@@ -1485,10 +1609,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "07B"
+    "code": "i7"
   },
   {
     "level": 5,
+    "cost": 7,
     "group": "群",
     "name": "袁術",
     "skill__level": "S",
@@ -1497,10 +1622,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "07C"
+    "code": "i8"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "魏",
     "name": "苟攸",
     "skill__level": "S",
@@ -1509,10 +1635,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "07D"
+    "code": "i9"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "蜀",
     "name": "嚴顏",
     "skill__level": "S",
@@ -1521,10 +1648,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "07E"
+    "code": "ia"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "蜀",
     "name": "姜維",
     "skill__level": "S",
@@ -1533,10 +1661,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "07F"
+    "code": "ib"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "吳",
     "name": "周泰",
     "skill__level": "S",
@@ -1545,10 +1674,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "080"
+    "code": "ic"
   },
   {
     "level": 5,
+    "cost": 6,
     "group": "吳",
     "name": "陸抗",
     "skill__level": "S",
@@ -1557,10 +1687,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "081"
+    "code": "id"
   },
   {
     "level": 5,
+    "cost": 5,
     "group": "群",
     "name": "高覽",
     "skill__level": "S",
@@ -1569,10 +1700,11 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "082"
+    "code": "ie"
   },
   {
     "level": 5,
+    "cost": 3,
     "group": "魏",
     "name": "張春華",
     "skill__level": "S",
@@ -1581,6 +1713,6 @@
     "skill__probability": "",
     "skill__description": "",
     "image": "./roleImages/{name}.png",
-    "code": "083"
+    "code": "if"
   }
 ]

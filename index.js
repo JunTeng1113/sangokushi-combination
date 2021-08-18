@@ -155,7 +155,7 @@ $(document).ready(function () {
         if ($(".codebar").val() == "") {
             $(".codebar").val(code);
         }
-        const array = $(".codebar").val().match(/.{1,3}/g);
+        const array = $(".codebar").val().match(/.{1,2}/g);
         $("li").addClass("hidden");
         array.forEach(element => {
             $(`li[code="${element}"]`).removeClass("hidden");

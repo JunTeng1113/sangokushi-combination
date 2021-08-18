@@ -5,7 +5,7 @@
     "type": "主動",
     "probability": "40%",
     "description": "",
-    "code": 100
+    "code": "00"
   },
   {
     "level": "S",
@@ -13,7 +13,7 @@
     "type": "主動",
     "probability": "40%",
     "description": "",
-    "code": 101
+    "code": "01"
   },
   {
     "level": "S",
@@ -21,7 +21,7 @@
     "type": "主動",
     "probability": "35%",
     "description": "準備1回合, 使敵軍群體（2人）統率,智力降低80點（受武力影響）, 持續2回合, 並對其發動一次兵...",
-    "code": 102
+    "code": "02"
   },
   {
     "level": "S",
@@ -29,7 +29,7 @@
     "type": "主動",
     "probability": "30%",
     "description": "準備1回合, 對敵軍全體發動一次兵刃攻擊（傷害率204.8%）",
-    "code": 103
+    "code": "03"
   },
   {
     "level": "S",
@@ -37,7 +37,7 @@
     "type": "主動",
     "probability": "45%",
     "description": "",
-    "code": 104
+    "code": "04"
   },
   {
     "level": "S",
@@ -45,7 +45,7 @@
     "type": "主動",
     "probability": "40%",
     "description": "",
-    "code": 105
+    "code": "05"
   },
   {
     "level": "S",
@@ -53,7 +53,7 @@
     "type": "主動",
     "probability": "40%",
     "description": "",
-    "code": 106
+    "code": "06"
   },
   {
     "level": "A",
@@ -61,7 +61,7 @@
     "type": "主動",
     "probability": "35%",
     "description": "",
-    "code": 107
+    "code": "07"
   },
   {
     "level": "A",
@@ -69,7 +69,7 @@
     "type": "主動",
     "probability": "35%",
     "description": "",
-    "code": 108
+    "code": "08"
   },
   {
     "level": "A",
@@ -77,7 +77,7 @@
     "type": "主動",
     "probability": "35%",
     "description": "",
-    "code": 109
+    "code": "09"
   },
   {
     "level": "A",
@@ -85,7 +85,7 @@
     "type": "主動",
     "probability": "35%",
     "description": "",
-    "code": "10A"
+    "code": "0a"
   },
   {
     "level": "A",
@@ -93,7 +93,7 @@
     "type": "主動",
     "probability": "50%",
     "description": "",
-    "code": "10B"
+    "code": "0b"
   },
   {
     "level": "A",
@@ -101,7 +101,7 @@
     "type": "主動",
     "probability": "40%",
     "description": "",
-    "code": "10C"
+    "code": "0c"
   },
   {
     "level": "A",
@@ -109,7 +109,7 @@
     "type": "主動",
     "probability": "40%",
     "description": "",
-    "code": "10D"
+    "code": "0d"
   },
   {
     "level": "A",
@@ -117,7 +117,7 @@
     "type": "主動",
     "probability": "45%",
     "description": "",
-    "code": "10E"
+    "code": "0e"
   },
   {
     "level": "A",
@@ -125,7 +125,7 @@
     "type": "主動",
     "probability": "40%",
     "description": "",
-    "code": "10F"
+    "code": "0f"
   },
   {
     "level": "A",
@@ -133,7 +133,7 @@
     "type": "主動",
     "probability": "50%",
     "description": "",
-    "code": 110
+    "code": "0g"
   },
   {
     "level": "A",
@@ -141,7 +141,7 @@
     "type": "主動",
     "probability": "35%",
     "description": "對敵軍單體造成兵刃攻擊（傷害率172%）及震攝狀態（無法行動）, 持續1回合",
-    "code": 111
+    "code": "0h"
   },
   {
     "level": "A",
@@ -149,7 +149,7 @@
     "type": "主動",
     "probability": "40%",
     "description": "",
-    "code": 112
+    "code": "0i"
   },
   {
     "level": "A",
@@ -157,7 +157,7 @@
     "type": "主動",
     "probability": "35%",
     "description": "對隨機敵軍單體造成兵刃攻擊（傷害率250%）, 並計窮（無法發動主動戰法）1回合",
-    "code": 113
+    "code": "0j"
   },
   {
     "level": "A",
@@ -165,7 +165,7 @@
     "type": "主動",
     "probability": "50%",
     "description": "",
-    "code": 114
+    "code": "0k"
   },
   {
     "level": "A",
@@ -173,7 +173,7 @@
     "type": "主動",
     "probability": "35%",
     "description": "",
-    "code": 115
+    "code": "0l"
   },
   {
     "level": "S",
@@ -181,7 +181,7 @@
     "type": "主動",
     "probability": "50%",
     "description": "",
-    "code": 116
+    "code": "0m"
   },
   {
     "level": "S",
@@ -189,7 +189,7 @@
     "type": "主動",
     "probability": "35%",
     "description": "",
-    "code": 117
+    "code": "0n"
   },
   {
     "level": "S",
@@ -197,7 +197,7 @@
     "type": "主動",
     "probability": "45%",
     "description": "",
-    "code": 118
+    "code": "0o"
   },
   {
     "level": "S",
@@ -205,7 +205,7 @@
     "type": "主動",
     "probability": "50%",
     "description": "",
-    "code": 119
+    "code": "0p"
   },
   {
     "level": "S",
@@ -213,7 +213,7 @@
     "type": "主動",
     "probability": "50%",
     "description": "",
-    "code": "11A"
+    "code": "0q"
   },
   {
     "level": "S",
@@ -221,7 +221,7 @@
     "type": "主動",
     "probability": "40%",
     "description": "",
-    "code": "11B"
+    "code": "0r"
   },
   {
     "level": "S",
@@ -229,7 +229,7 @@
     "type": "主動",
     "probability": "40%",
     "description": "",
-    "code": "11C"
+    "code": "0s"
   },
   {
     "level": "S",
@@ -237,7 +237,7 @@
     "type": "主動",
     "probability": "35%",
     "description": "",
-    "code": "11D"
+    "code": "0t"
   },
   {
     "level": "S",
@@ -245,7 +245,7 @@
     "type": "主動",
     "probability": "35%",
     "description": "",
-    "code": "11E"
+    "code": "0u"
   },
   {
     "level": "S",
@@ -253,7 +253,7 @@
     "type": "主動",
     "probability": "40%",
     "description": "",
-    "code": "11F"
+    "code": "0v"
   },
   {
     "level": "S",
@@ -261,7 +261,7 @@
     "type": "主動",
     "probability": "35%",
     "description": "",
-    "code": 120
+    "code": "0w"
   },
   {
     "level": "A",
@@ -269,7 +269,7 @@
     "type": "主動",
     "probability": "35%",
     "description": "",
-    "code": 121
+    "code": "0x"
   },
   {
     "level": "A",
@@ -277,7 +277,7 @@
     "type": "主動",
     "probability": "35%",
     "description": "",
-    "code": 122
+    "code": "0y"
   },
   {
     "level": "A",
@@ -285,7 +285,7 @@
     "type": "主動",
     "probability": "35%",
     "description": "",
-    "code": 123
+    "code": "0z"
   },
   {
     "level": "A",
@@ -293,7 +293,7 @@
     "type": "主動",
     "probability": "45%",
     "description": "",
-    "code": 124
+    "code": "0A"
   },
   {
     "level": "A",
@@ -301,7 +301,7 @@
     "type": "主動",
     "probability": "40%",
     "description": "",
-    "code": 125
+    "code": "0B"
   },
   {
     "level": "A",
@@ -309,7 +309,7 @@
     "type": "主動",
     "probability": "45%",
     "description": "",
-    "code": 126
+    "code": "0C"
   },
   {
     "level": "A",
@@ -317,7 +317,7 @@
     "type": "主動",
     "probability": "50%",
     "description": "",
-    "code": 127
+    "code": "0D"
   },
   {
     "level": "A",
@@ -325,7 +325,7 @@
     "type": "主動",
     "probability": "40%",
     "description": "",
-    "code": 128
+    "code": "0E"
   },
   {
     "level": "A",
@@ -333,7 +333,7 @@
     "type": "主動",
     "probability": "50%",
     "description": "",
-    "code": 129
+    "code": "0F"
   },
   {
     "level": "A",
@@ -341,7 +341,7 @@
     "type": "主動",
     "probability": "40%",
     "description": "",
-    "code": "12A"
+    "code": "0G"
   },
   {
     "level": "S",
@@ -349,7 +349,7 @@
     "type": "主動",
     "probability": "25% → 35%",
     "description": "",
-    "code": "12B"
+    "code": "0H"
   },
   {
     "level": "S",
@@ -357,7 +357,7 @@
     "type": "主動",
     "probability": "25% → 35%",
     "description": "",
-    "code": "12C"
+    "code": "0I"
   },
   {
     "level": "S",
@@ -365,7 +365,7 @@
     "type": "主動",
     "probability": "40%",
     "description": "",
-    "code": "12D"
+    "code": "0J"
   },
   {
     "level": "S",
@@ -373,7 +373,7 @@
     "type": "主動",
     "probability": "25% → 40%",
     "description": "",
-    "code": "12E"
+    "code": "0K"
   },
   {
     "level": "S",
@@ -381,7 +381,7 @@
     "type": "主動",
     "probability": "30% → 45%",
     "description": "",
-    "code": "12F"
+    "code": "0L"
   },
   {
     "level": "S",
@@ -389,7 +389,7 @@
     "type": "主動",
     "probability": "55%",
     "description": "",
-    "code": 130
+    "code": "0M"
   },
   {
     "level": "S",
@@ -397,7 +397,7 @@
     "type": "主動",
     "probability": "50%",
     "description": "",
-    "code": 131
+    "code": "0N"
   },
   {
     "level": "S",
@@ -405,7 +405,7 @@
     "type": "主動",
     "probability": "55%",
     "description": "",
-    "code": 132
+    "code": "0O"
   },
   {
     "level": "S",
@@ -413,7 +413,7 @@
     "type": "主動",
     "probability": "50%",
     "description": "",
-    "code": 133
+    "code": "0P"
   },
   {
     "level": "S",
@@ -421,7 +421,7 @@
     "type": "主動",
     "probability": "50%",
     "description": "",
-    "code": 134
+    "code": "0Q"
   },
   {
     "level": "S",
@@ -429,7 +429,7 @@
     "type": "主動",
     "probability": "25% → 40%",
     "description": "",
-    "code": 135
+    "code": "0R"
   },
   {
     "level": "S",
@@ -437,7 +437,7 @@
     "type": "主動",
     "probability": "65%",
     "description": "",
-    "code": 136
+    "code": "0S"
   },
   {
     "level": "A",
@@ -445,7 +445,7 @@
     "type": "主動",
     "probability": "25% → 45%",
     "description": "",
-    "code": 137
+    "code": "0T"
   },
   {
     "level": "A",
@@ -453,7 +453,7 @@
     "type": "主動",
     "probability": "45%",
     "description": "",
-    "code": 138
+    "code": "0U"
   },
   {
     "level": "A",
@@ -461,7 +461,7 @@
     "type": "主動",
     "probability": "35%",
     "description": "",
-    "code": 139
+    "code": "0V"
   },
   {
     "level": "A",
@@ -469,7 +469,7 @@
     "type": "主動",
     "probability": "40%",
     "description": "",
-    "code": "13A"
+    "code": "0W"
   },
   {
     "level": "A",
@@ -477,7 +477,7 @@
     "type": "主動",
     "probability": "20% → 35%",
     "description": "",
-    "code": "13B"
+    "code": "0X"
   },
   {
     "level": "A",
@@ -485,7 +485,7 @@
     "type": "主動",
     "probability": "25% → 45%",
     "description": "",
-    "code": "13C"
+    "code": "0Y"
   },
   {
     "level": "A",
@@ -493,7 +493,7 @@
     "type": "主動",
     "probability": "25% → 35%",
     "description": "",
-    "code": "13D"
+    "code": "0Z"
   },
   {
     "level": "A",
@@ -501,7 +501,7 @@
     "type": "主動",
     "probability": "40%",
     "description": "",
-    "code": "13E"
+    "code": 10
   },
   {
     "level": "A",
@@ -509,7 +509,7 @@
     "type": "主動",
     "probability": "40%",
     "description": "",
-    "code": "13F"
+    "code": 11
   },
   {
     "level": "A",
@@ -517,7 +517,7 @@
     "type": "主動",
     "probability": "30% → 45%",
     "description": "",
-    "code": 140
+    "code": 12
   },
   {
     "level": "A",
@@ -525,7 +525,7 @@
     "type": "主動",
     "probability": "30% → 45%",
     "description": "",
-    "code": 141
+    "code": 13
   },
   {
     "level": "A",
@@ -533,7 +533,7 @@
     "type": "主動",
     "probability": "35%",
     "description": "",
-    "code": 142
+    "code": 14
   },
   {
     "level": "A",
@@ -541,7 +541,7 @@
     "type": "主動",
     "probability": "35%",
     "description": "",
-    "code": 143
+    "code": 15
   },
   {
     "level": "S",
@@ -549,7 +549,7 @@
     "type": "被動",
     "probability": "100%",
     "description": "",
-    "code": 144
+    "code": 16
   },
   {
     "level": "S",
@@ -557,7 +557,7 @@
     "type": "被動",
     "probability": "100%",
     "description": "",
-    "code": 145
+    "code": 17
   },
   {
     "level": "S",
@@ -565,7 +565,7 @@
     "type": "被動",
     "probability": "100%",
     "description": "",
-    "code": 146
+    "code": 18
   },
   {
     "level": "S",
@@ -573,7 +573,7 @@
     "type": "被動",
     "probability": "100%",
     "description": "",
-    "code": 147
+    "code": 19
   },
   {
     "level": "S",
@@ -581,7 +581,7 @@
     "type": "被動",
     "probability": "100%",
     "description": "",
-    "code": 148
+    "code": "1a"
   },
   {
     "level": "S",
@@ -589,7 +589,7 @@
     "type": "被動",
     "probability": "100%",
     "description": "",
-    "code": 149
+    "code": "1b"
   },
   {
     "level": "S",
@@ -597,7 +597,7 @@
     "type": "被動",
     "probability": "100%",
     "description": "",
-    "code": "14A"
+    "code": "1c"
   },
   {
     "level": "S",
@@ -605,7 +605,7 @@
     "type": "被動",
     "probability": "100%",
     "description": "",
-    "code": "14B"
+    "code": "1d"
   },
   {
     "level": "S",
@@ -613,7 +613,7 @@
     "type": "被動",
     "probability": "100%",
     "description": "",
-    "code": "14C"
+    "code": "1e"
   },
   {
     "level": "S",
@@ -621,7 +621,7 @@
     "type": "被動",
     "probability": "100%",
     "description": "",
-    "code": "14D"
+    "code": "1f"
   },
   {
     "level": "S",
@@ -629,7 +629,7 @@
     "type": "被動",
     "probability": "100%",
     "description": "",
-    "code": "14E"
+    "code": "1g"
   },
   {
     "level": "S",
@@ -637,7 +637,7 @@
     "type": "被動",
     "probability": "100%",
     "description": "",
-    "code": "14F"
+    "code": "1h"
   },
   {
     "level": "S",
@@ -645,7 +645,7 @@
     "type": "被動",
     "probability": "100%",
     "description": "",
-    "code": 150
+    "code": "1i"
   },
   {
     "level": "A",
@@ -653,7 +653,7 @@
     "type": "被動",
     "probability": "100%",
     "description": "",
-    "code": 151
+    "code": "1j"
   },
   {
     "level": "A",
@@ -661,7 +661,7 @@
     "type": "被動",
     "probability": "100%",
     "description": "",
-    "code": 152
+    "code": "1k"
   },
   {
     "level": "A",
@@ -669,7 +669,7 @@
     "type": "被動",
     "probability": "100%",
     "description": "",
-    "code": 153
+    "code": "1l"
   },
   {
     "level": "A",
@@ -677,7 +677,7 @@
     "type": "被動",
     "probability": "100%",
     "description": "",
-    "code": 154
+    "code": "1m"
   },
   {
     "level": "A",
@@ -685,7 +685,7 @@
     "type": "被動",
     "probability": "100%",
     "description": "戰鬥中, 自身主動戰法的發動機率提高12%",
-    "code": 155
+    "code": "1n"
   },
   {
     "level": "A",
@@ -693,7 +693,7 @@
     "type": "被動",
     "probability": "100%",
     "description": "",
-    "code": 156
+    "code": "1o"
   },
   {
     "level": "S",
@@ -701,7 +701,7 @@
     "type": "突擊",
     "probability": "25% → 45%",
     "description": "",
-    "code": 157
+    "code": "1p"
   },
   {
     "level": "S",
@@ -709,7 +709,7 @@
     "type": "突擊",
     "probability": "25% → 35%",
     "description": "",
-    "code": 158
+    "code": "1q"
   },
   {
     "level": "S",
@@ -717,7 +717,7 @@
     "type": "突擊",
     "probability": "30%",
     "description": "",
-    "code": 159
+    "code": "1r"
   },
   {
     "level": "S",
@@ -725,7 +725,7 @@
     "type": "突擊",
     "probability": "40%",
     "description": "",
-    "code": "15A"
+    "code": "1s"
   },
   {
     "level": "S",
@@ -733,7 +733,7 @@
     "type": "突擊",
     "probability": "35%",
     "description": "",
-    "code": "15B"
+    "code": "1t"
   },
   {
     "level": "S",
@@ -741,7 +741,7 @@
     "type": "突擊",
     "probability": "45%",
     "description": "",
-    "code": "15C"
+    "code": "1u"
   },
   {
     "level": "S",
@@ -749,7 +749,7 @@
     "type": "突擊",
     "probability": "35%",
     "description": "",
-    "code": "15D"
+    "code": "1v"
   },
   {
     "level": "S",
@@ -757,7 +757,7 @@
     "type": "突擊",
     "probability": "40%",
     "description": "",
-    "code": "15E"
+    "code": "1w"
   },
   {
     "level": "A",
@@ -765,7 +765,7 @@
     "type": "突擊",
     "probability": "30%",
     "description": "",
-    "code": "15F"
+    "code": "1x"
   },
   {
     "level": "A",
@@ -773,7 +773,7 @@
     "type": "突擊",
     "probability": "40%",
     "description": "",
-    "code": 160
+    "code": "1y"
   },
   {
     "level": "A",
@@ -781,7 +781,7 @@
     "type": "突擊",
     "probability": "40%",
     "description": "",
-    "code": 161
+    "code": "1z"
   },
   {
     "level": "S",
@@ -789,7 +789,7 @@
     "type": "指揮",
     "probability": "100%",
     "description": "",
-    "code": 162
+    "code": "1A"
   },
   {
     "level": "S",
@@ -797,7 +797,7 @@
     "type": "指揮",
     "probability": "100%",
     "description": "",
-    "code": 163
+    "code": "1B"
   },
   {
     "level": "S",
@@ -805,7 +805,7 @@
     "type": "指揮",
     "probability": "100%",
     "description": "",
-    "code": 164
+    "code": "1C"
   },
   {
     "level": "S",
@@ -813,7 +813,7 @@
     "type": "指揮",
     "probability": "100%",
     "description": "",
-    "code": 165
+    "code": "1D"
   },
   {
     "level": "S",
@@ -821,7 +821,7 @@
     "type": "指揮",
     "probability": "100%",
     "description": "",
-    "code": 166
+    "code": "1E"
   },
   {
     "level": "S",
@@ -829,7 +829,7 @@
     "type": "指揮",
     "probability": "100%",
     "description": "",
-    "code": 167
+    "code": "1F"
   },
   {
     "level": "S",
@@ -837,7 +837,7 @@
     "type": "指揮",
     "probability": "100%",
     "description": "戰鬥開始後前2回合, 使敵軍群體（2人）每回合都有45%的機率陷入繳械狀態, 無法進行普通攻擊",
-    "code": 168
+    "code": "1G"
   },
   {
     "level": "S",
@@ -845,7 +845,7 @@
     "type": "指揮",
     "probability": "100%",
     "description": "",
-    "code": 169
+    "code": "1H"
   },
   {
     "level": "S",
@@ -853,7 +853,7 @@
     "type": "指揮",
     "probability": "100%",
     "description": "",
-    "code": "16A"
+    "code": "1I"
   },
   {
     "level": "S",
@@ -861,7 +861,7 @@
     "type": "指揮",
     "probability": "100%",
     "description": "",
-    "code": "16B"
+    "code": "1J"
   },
   {
     "level": "S",
@@ -869,7 +869,7 @@
     "type": "指揮",
     "probability": "100%",
     "description": "",
-    "code": "16C"
+    "code": "1K"
   },
   {
     "level": "S",
@@ -877,7 +877,7 @@
     "type": "指揮",
     "probability": "100%",
     "description": "",
-    "code": "16D"
+    "code": "1L"
   },
   {
     "level": "A",
@@ -885,7 +885,7 @@
     "type": "指揮",
     "probability": "100%",
     "description": "",
-    "code": "16E"
+    "code": "1M"
   },
   {
     "level": "A",
@@ -893,7 +893,7 @@
     "type": "指揮",
     "probability": "100%",
     "description": "",
-    "code": "16F"
+    "code": "1N"
   },
   {
     "level": "A",
@@ -901,7 +901,7 @@
     "type": "指揮",
     "probability": "100%",
     "description": "",
-    "code": 170
+    "code": "1O"
   },
   {
     "level": "A",
@@ -909,7 +909,7 @@
     "type": "指揮",
     "probability": "100%",
     "description": "",
-    "code": 171
+    "code": "1P"
   },
   {
     "level": "A",
@@ -917,7 +917,7 @@
     "type": "指揮",
     "probability": "100%",
     "description": "",
-    "code": 172
+    "code": "1Q"
   },
   {
     "level": "S",
@@ -925,7 +925,7 @@
     "type": "陣法",
     "probability": "100%",
     "description": "",
-    "code": 173
+    "code": "1R"
   },
   {
     "level": "S",
@@ -933,7 +933,7 @@
     "type": "陣法",
     "probability": "100%",
     "description": "",
-    "code": 174
+    "code": "1S"
   },
   {
     "level": "S",
@@ -941,7 +941,7 @@
     "type": "陣法",
     "probability": "100%",
     "description": "",
-    "code": 175
+    "code": "1T"
   },
   {
     "level": "S",
@@ -949,7 +949,7 @@
     "type": "陣法",
     "probability": "100%",
     "description": "",
-    "code": 176
+    "code": "1U"
   },
   {
     "level": "S",
@@ -957,7 +957,7 @@
     "type": "陣法",
     "probability": "100%",
     "description": "",
-    "code": 177
+    "code": "1V"
   },
   {
     "level": "S",
@@ -965,7 +965,7 @@
     "type": "兵種",
     "probability": "100%",
     "description": "",
-    "code": 178
+    "code": "1W"
   },
   {
     "level": "S",
@@ -973,7 +973,7 @@
     "type": "兵種",
     "probability": "100%",
     "description": "",
-    "code": 179
+    "code": "1X"
   },
   {
     "level": "S",
@@ -981,7 +981,7 @@
     "type": "兵種",
     "probability": "100%",
     "description": "",
-    "code": "17A"
+    "code": "1Y"
   },
   {
     "level": "S",
@@ -989,7 +989,7 @@
     "type": "兵種",
     "probability": "100%",
     "description": "",
-    "code": "17B"
+    "code": "1Z"
   },
   {
     "level": "S",
@@ -997,7 +997,7 @@
     "type": "兵種",
     "probability": "100%",
     "description": "",
-    "code": "17C"
+    "code": 20
   },
   {
     "level": "S",
@@ -1005,7 +1005,7 @@
     "type": "兵種",
     "probability": "100%",
     "description": "",
-    "code": "17D"
+    "code": 21
   },
   {
     "level": "S",
@@ -1013,7 +1013,7 @@
     "type": "兵種",
     "probability": "100%",
     "description": "",
-    "code": "17E"
+    "code": 22
   },
   {
     "level": "S",
@@ -1021,7 +1021,7 @@
     "type": "兵種",
     "probability": "100%",
     "description": "",
-    "code": "17F"
+    "code": 23
   },
   {
     "level": "S",
@@ -1029,7 +1029,7 @@
     "type": "兵種",
     "probability": "100%",
     "description": "",
-    "code": 180
+    "code": 24
   },
   {
     "level": "S",
@@ -1037,7 +1037,7 @@
     "type": "兵種",
     "probability": "100%",
     "description": "",
-    "code": 181
+    "code": 25
   },
   {
     "level": "S",
@@ -1045,7 +1045,7 @@
     "type": "兵種",
     "probability": "100%",
     "description": "",
-    "code": 182
+    "code": 26
   },
   {
     "level": "S",
@@ -1053,6 +1053,6 @@
     "type": "兵種",
     "probability": "100%",
     "description": "",
-    "code": 183
+    "code": 27
   }
 ]
