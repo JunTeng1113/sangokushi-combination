@@ -1,13 +1,4 @@
 :root {
-    --color-07-7: #117A65;
-    --color-13-9: #6E2C00;
-    --color-18-0: #FAFAFA;
-    --color-18-7: #616161;
-    --color-18-8: #424242;
-    --color-18-9: #212121;
-    --color-2-12-9: #F57F17;
-    --color-2-16-8: #4E342E;
-    --color-2-16-9: #3E2723;
     user-select: none;
 }
 
@@ -48,7 +39,7 @@ div {
     border-bottom: 1px solid yellow;
 }
 
-.role > .roleInfo {
+.roleField > .roleInfo {
     display: flex;
     position: absolute;
 
@@ -61,14 +52,14 @@ div {
     display: none;
 
 }
-.role > .roleInfo[level="5"] {
+.roleField > .roleInfo[level="5"] {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(241, 196, 15, 0.8) 100%);
 }
-.role > .roleInfo[level="4"] {
+.roleField > .roleInfo[level="4"] {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(156, 39, 176, 0.8) 100%);
 }
 
-.role > .roleInfo > .roleGroup {
+.roleField > .roleInfo > .roleGroup {
     display: inline-block;
 
     --width: 3rem;
@@ -84,7 +75,7 @@ div {
     /* background-color: greenyellow; */
 }
 
-.role > .roleInfo > .roleName {
+.roleField > .roleInfo > .roleName {
     display: inline-block;
     flex: auto;
 
@@ -101,7 +92,7 @@ div {
 
 }
 
-.skill {
+.skillField {
     display: flex;
     align-items: center;
     position: relative;
@@ -122,7 +113,7 @@ div {
     border-top: 1px solid yellow;
     border-bottom: 1px solid yellow;
 }
-.skill > .skillLevel {
+.skillField > .skillLevel {
     display: inline-block;
 
     --height: 1.5rem;
@@ -141,7 +132,7 @@ div {
     background-color: var(--color-2-16-9);
 }
 
-.skill > .skillName {
+.skillField > .skillName {
     display: inline-block;
     flex: auto;
     border: 1px solid rgba(0, 0, 0, 0);
@@ -172,10 +163,41 @@ div {
 
     margin: 0 .5rem;
     border: 1px var(--color-18-7) solid;
-    width: calc(5rem);
+    width: 8rem;
     background-color: var(--color-18-8);
 }
 
 .hidden {
     display: none;
+}
+
+.filter {
+    position: absolute;
+    white-space: pre-line;
+    z-index: 10;
+
+    line-height: 1.2rem;
+    min-width: 3rem;
+    padding-right: 1rem;
+    background-color: var(--color-18-8);
+}
+
+.魏 {
+    font-weight: bold;
+    color: var(--color-05-4);
+}
+
+.吳 {
+    font-weight: bold;
+    color: var(--color-01-4);
+}
+
+.蜀 {
+    font-weight: bold;
+    color: var(--color-06-4);
+}
+
+.群 {
+    font-weight: bold;
+    color: var(--color-10-4);
 }

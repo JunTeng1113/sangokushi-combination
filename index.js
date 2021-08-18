@@ -8,10 +8,12 @@ $(document).ready(function () {
         success: function (response) {
             response.forEach(function(element, index) {
                 $("#skillMenu > ul").append(`<li 
+                class="skill" 
                 index="${index}" 
                 level="${element['level']}"
+                type="${element['type']}"
                 code="${element['code']}"
-                ><type>[${element['type']}]</type><name>${element['name']}</name></li>`);
+                ><name>${element['name']}</name></li>`);
             });
         }
     });
@@ -25,6 +27,7 @@ $(document).ready(function () {
             response.forEach(function(element, index) {
                 const image = element['image'].replace("{name}", element['name']);
                 $("#roleMenu > ul").append(`<li 
+                    class="role" 
                     index="${index}" 
                     level="${element['level']}" 
                     skillLevel="${element['skill__level']}" 
@@ -32,12 +35,12 @@ $(document).ready(function () {
                     image="${image}"
                     group="${element['group']}"
                     code="${element['code']}"
-                    ><name>${element['name']}</name></li>`);
+                    ><group class="${element['group']}">${element['group']}</group> <name>${element['name']}</name></li>`);
             });
         }
     });
 
-    $(".role").click(function (e) { // 太複雜, 需優化
+    $(".rolefield").click(function (e) { // 太複雜, 需優化
         if (!($(this).hasClass("role_selected"))) {
             $(".role_selected").removeClass("role_selected");
             $(this).addClass("role_selected");
@@ -45,7 +48,7 @@ $(document).ready(function () {
         } else {
             $(".role_selected").removeClass("role_selected");
         }
-        $(".role").dblclick(function (e) { 
+        $(".rolefield").dblclick(function (e) { 
             if (!($(this).text() == "")) {
                 $(`#roleMenu > ul > li[index="${$(this).attr("index")}"]`).removeClass("checked");
 
@@ -157,5 +160,24 @@ $(document).ready(function () {
         array.forEach(element => {
             $(`li[code="${element}"]`).removeClass("hidden");
         });
+    });
+
+    $(`input[name="filterRole"]`).change(function (e) { 
+        $(".role").css("display", "none");
+        console.log($(`input[name="filterRole"]:checked`).attr("id"));
+        const checked = $(`input[name="filterRole"]:checked`);
+        checked.each(function (index, element) {
+            $(`.role[group="${$(element).attr("id")}"]`).css("display", "");
+        });
+        
+    });
+    $(`input[name="filterSkill"]`).change(function (e) { 
+        $(".skill").css("display", "none");
+        console.log($(`input[name="filterSkill"]:checked`).attr("id"));
+        const checked = $(`input[name="filterSkill"]:checked`);
+        checked.each(function (index, element) {
+            $(`.skill[type="${$(element).attr("id")}"]`).css("display", "");
+        });
+        
     });
 });

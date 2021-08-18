@@ -6,6 +6,7 @@
 
     background-color: var(--color-18-8);
     color: var(--color-18-0);
+    width: 12rem;
 }
 
 
@@ -22,6 +23,7 @@
 
 .list > ul > li {
     text-align: center;
+    margin: 0 auto;
 
     border: 1px rgba(0, 0, 0, 0) solid;
     border-top: 1px #000 solid;
