@@ -175,3 +175,7 @@ div {
     width: calc(5rem);
     background-color: var(--color-18-8);
 }
+
+.hidden {
+    display: none;
+}

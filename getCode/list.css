@@ -1,0 +1,41 @@
+.main {
+    display: flex;
+    user-select: none;
+}
+
+ul {
+    width: 30rem;
+    padding: 0;
+}
+
+ul li {
+    float: left;
+    margin: .25rem .25rem;
+    border: 2px var(--color-18-9) solid;
+    border-radius: 2px;
+    width: 6rem;
+    line-height: 20px;
+    list-style-type: none;
+    text-align: center;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+li[level="5"], li[level="S"] {
+    border-color: var(--color-10-3);
+    background-color: var(--color-10-6);
+    color: var(--color-18-0);
+}
+li[level="4"], li[level="A"] {
+    border-color: var(--color-03-4);
+    background-color: var(--color-03-6);
+    color: var(--color-18-0);
+}
+
+.selected {
+    border-color: var(--color-06-4) !important;
+    background-color: var(--color-07-4) !important;
+    color: var(--color-18-0) !important;
+}

@@ -2,19 +2,23 @@ $(document).ready(function () {
     $.ajax({
         async: false, 
         type: "post",
-        url: "./skill.json",
+        url: "./data/skill.json",
         data: "data",
         dataType: "json",
         success: function (response) {
             response.forEach(function(element, index) {
-                $("#skillMenu > ul").append(`<li index="${index}" level="${element['level']}"><type>[${element['type']}]</type><name>${element['name']}</name></li>`);
+                $("#skillMenu > ul").append(`<li 
+                index="${index}" 
+                level="${element['level']}"
+                code="${element['code']}"
+                ><type>[${element['type']}]</type><name>${element['name']}</name></li>`);
             });
         }
     });
     $.ajax({
         async: false, 
         type: "post",
-        url: "./data.json",
+        url: "./data/data.json",
         data: "data",
         dataType: "json",
         success: function (response) {
@@ -26,7 +30,9 @@ $(document).ready(function () {
                     skillLevel="${element['skill__level']}" 
                     skillName="${element['skill__name']}" 
                     image="${image}"
-                    ><group>[${element['group']}]</group><name>${element['name']}</name></li>`);
+                    group="${element['group']}"
+                    code="${element['code']}"
+                    ><name>${element['name']}</name></li>`);
             });
         }
     });
@@ -130,5 +136,26 @@ $(document).ready(function () {
         });
     });
 
+
+    let code = "";
+    const role = $("#roleMenu ul li");
+    role.each(function (index, element) {
+        code += $(element).attr("code");
+    });
+    const skill = $("#skillMenu ul li");
+    skill.each(function (index, element) {
+        code += $(element).attr("code");
+    });
     
+
+    $("#apply").click(function (e) { 
+        if ($(".codebar").val() == "") {
+            $(".codebar").val(code);
+        }
+        const array = $(".codebar").val().match(/.{1,3}/g);
+        $("li").addClass("hidden");
+        array.forEach(element => {
+            $(`li[code="${element}"]`).removeClass("hidden");
+        });
+    });
 });

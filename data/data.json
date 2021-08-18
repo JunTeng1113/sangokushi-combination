@@ -8,7 +8,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "000"
   },
   {
     "level": 5,
@@ -19,7 +20,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "001"
   },
   {
     "level": 5,
@@ -30,7 +32,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "002"
   },
   {
     "level": 5,
@@ -41,7 +44,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "003"
   },
   {
     "level": 5,
@@ -52,7 +56,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "004"
   },
   {
     "level": 5,
@@ -63,7 +68,8 @@
     "skill__type": "主動",
     "skill__probability": "35.00%",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "005"
   },
   {
     "level": 5,
@@ -74,7 +80,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "006"
   },
   {
     "level": 5,
@@ -85,7 +92,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "007"
   },
   {
     "level": 5,
@@ -96,7 +104,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "008"
   },
   {
     "level": 5,
@@ -107,7 +116,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "009"
   },
   {
     "level": 5,
@@ -118,7 +128,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "00A"
   },
   {
     "level": 5,
@@ -129,7 +140,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "00B"
   },
   {
     "level": 5,
@@ -140,7 +152,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "00C"
   },
   {
     "level": 5,
@@ -151,7 +164,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "00D"
   },
   {
     "level": 5,
@@ -162,7 +176,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "00E"
   },
   {
     "level": 5,
@@ -173,7 +188,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "00F"
   },
   {
     "level": 5,
@@ -184,7 +200,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "010"
   },
   {
     "level": 5,
@@ -195,7 +212,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "011"
   },
   {
     "level": 5,
@@ -206,7 +224,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "012"
   },
   {
     "level": 5,
@@ -217,7 +236,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "013"
   },
   {
     "level": 5,
@@ -228,7 +248,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "014"
   },
   {
     "level": 5,
@@ -239,7 +260,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "015"
   },
   {
     "level": 5,
@@ -250,7 +272,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "016"
   },
   {
     "level": 5,
@@ -261,7 +284,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "017"
   },
   {
     "level": 5,
@@ -272,7 +296,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "018"
   },
   {
     "level": 5,
@@ -283,7 +308,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "019"
   },
   {
     "level": 5,
@@ -294,7 +320,8 @@
     "skill__type": "被動",
     "skill__probability": "100.00%",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "01A"
   },
   {
     "level": 5,
@@ -305,7 +332,8 @@
     "skill__type": "被動",
     "skill__probability": "100.00%",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "01B"
   },
   {
     "level": 5,
@@ -316,7 +344,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "01C"
   },
   {
     "level": 5,
@@ -327,7 +356,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "01D"
   },
   {
     "level": 5,
@@ -338,7 +368,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "01E"
   },
   {
     "level": 5,
@@ -349,7 +380,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "01F"
   },
   {
     "level": 5,
@@ -360,7 +392,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "020"
   },
   {
     "level": 5,
@@ -371,7 +404,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "021"
   },
   {
     "level": 5,
@@ -382,7 +416,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "022"
   },
   {
     "level": 5,
@@ -393,7 +428,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "023"
   },
   {
     "level": 5,
@@ -404,7 +440,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "024"
   },
   {
     "level": 5,
@@ -415,7 +452,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "025"
   },
   {
     "level": 5,
@@ -426,7 +464,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "026"
   },
   {
     "level": 5,
@@ -437,7 +476,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "027"
   },
   {
     "level": 5,
@@ -448,7 +488,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "028"
   },
   {
     "level": 5,
@@ -459,7 +500,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "029"
   },
   {
     "level": 5,
@@ -470,7 +512,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "02A"
   },
   {
     "level": 5,
@@ -481,7 +524,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "02B"
   },
   {
     "level": 5,
@@ -492,7 +536,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "02C"
   },
   {
     "level": 5,
@@ -503,7 +548,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "02D"
   },
   {
     "level": 5,
@@ -514,7 +560,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "02E"
   },
   {
     "level": 5,
@@ -525,7 +572,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "02F"
   },
   {
     "level": 5,
@@ -536,7 +584,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "030"
   },
   {
     "level": 5,
@@ -547,7 +596,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "031"
   },
   {
     "level": 5,
@@ -558,7 +608,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "032"
   },
   {
     "level": 5,
@@ -569,7 +620,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "033"
   },
   {
     "level": 5,
@@ -580,7 +632,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "034"
   },
   {
     "level": 5,
@@ -591,7 +644,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "035"
   },
   {
     "level": 5,
@@ -602,7 +656,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "036"
   },
   {
     "level": 5,
@@ -613,7 +668,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "037"
   },
   {
     "level": 5,
@@ -624,7 +680,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "038"
   },
   {
     "level": 5,
@@ -635,7 +692,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "039"
   },
   {
     "level": 5,
@@ -646,7 +704,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "03A"
   },
   {
     "level": 5,
@@ -657,7 +716,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "03B"
   },
   {
     "level": 5,
@@ -668,7 +728,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "03C"
   },
   {
     "level": 5,
@@ -679,7 +740,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "03D"
   },
   {
     "level": 5,
@@ -690,7 +752,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "03E"
   },
   {
     "level": 5,
@@ -701,7 +764,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "03F"
   },
   {
     "level": 5,
@@ -712,7 +776,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "040"
   },
   {
     "level": 5,
@@ -723,7 +788,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "041"
   },
   {
     "level": 5,
@@ -734,7 +800,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "042"
   },
   {
     "level": 5,
@@ -745,7 +812,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "043"
   },
   {
     "level": 4,
@@ -756,7 +824,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "044"
   },
   {
     "level": 4,
@@ -767,7 +836,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "045"
   },
   {
     "level": 4,
@@ -778,7 +848,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "046"
   },
   {
     "level": 4,
@@ -789,7 +860,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "047"
   },
   {
     "level": 4,
@@ -800,7 +872,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "048"
   },
   {
     "level": 4,
@@ -811,7 +884,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "049"
   },
   {
     "level": 4,
@@ -822,7 +896,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "04A"
   },
   {
     "level": 4,
@@ -833,7 +908,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "04B"
   },
   {
     "level": 4,
@@ -844,7 +920,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "04C"
   },
   {
     "level": 4,
@@ -855,7 +932,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "04D"
   },
   {
     "level": 4,
@@ -866,7 +944,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "04E"
   },
   {
     "level": 4,
@@ -877,7 +956,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "04F"
   },
   {
     "level": 4,
@@ -888,7 +968,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "050"
   },
   {
     "level": 4,
@@ -899,7 +980,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "051"
   },
   {
     "level": 4,
@@ -910,7 +992,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "052"
   },
   {
     "level": 4,
@@ -921,7 +1004,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "053"
   },
   {
     "level": 4,
@@ -932,7 +1016,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "054"
   },
   {
     "level": 4,
@@ -943,7 +1028,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "055"
   },
   {
     "level": 4,
@@ -954,7 +1040,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "056"
   },
   {
     "level": 4,
@@ -965,7 +1052,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "057"
   },
   {
     "level": 4,
@@ -976,7 +1064,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "058"
   },
   {
     "level": 4,
@@ -987,7 +1076,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "059"
   },
   {
     "level": 4,
@@ -998,7 +1088,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "05A"
   },
   {
     "level": 4,
@@ -1009,7 +1100,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "05B"
   },
   {
     "level": 4,
@@ -1020,7 +1112,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "05C"
   },
   {
     "level": 4,
@@ -1031,7 +1124,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "05D"
   },
   {
     "level": 4,
@@ -1042,7 +1136,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "05E"
   },
   {
     "level": 4,
@@ -1053,7 +1148,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "05F"
   },
   {
     "level": 4,
@@ -1064,7 +1160,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "060"
   },
   {
     "level": 4,
@@ -1075,7 +1172,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "061"
   },
   {
     "level": 4,
@@ -1086,7 +1184,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "062"
   },
   {
     "level": 4,
@@ -1097,7 +1196,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "063"
   },
   {
     "level": 4,
@@ -1108,7 +1208,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "064"
   },
   {
     "level": 4,
@@ -1119,7 +1220,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "065"
   },
   {
     "level": 4,
@@ -1130,7 +1232,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "066"
   },
   {
     "level": 4,
@@ -1141,7 +1244,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "067"
   },
   {
     "level": 4,
@@ -1152,7 +1256,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "068"
   },
   {
     "level": 4,
@@ -1163,7 +1268,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "069"
   },
   {
     "level": 4,
@@ -1174,7 +1280,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "06A"
   },
   {
     "level": 4,
@@ -1185,7 +1292,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "06B"
   },
   {
     "level": 4,
@@ -1196,7 +1304,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "06C"
   },
   {
     "level": 4,
@@ -1207,7 +1316,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "06D"
   },
   {
     "level": 5,
@@ -1218,7 +1328,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "06E"
   },
   {
     "level": 5,
@@ -1229,7 +1340,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "06F"
   },
   {
     "level": 5,
@@ -1240,7 +1352,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "070"
   },
   {
     "level": 5,
@@ -1251,7 +1364,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "071"
   },
   {
     "level": 5,
@@ -1262,7 +1376,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "072"
   },
   {
     "level": 5,
@@ -1273,7 +1388,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "073"
   },
   {
     "level": 5,
@@ -1284,7 +1400,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "074"
   },
   {
     "level": 5,
@@ -1295,7 +1412,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "075"
   },
   {
     "level": 5,
@@ -1306,7 +1424,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "076"
   },
   {
     "level": 5,
@@ -1317,7 +1436,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "077"
   },
   {
     "level": 5,
@@ -1328,7 +1448,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "078"
   },
   {
     "level": 5,
@@ -1339,7 +1460,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "079"
   },
   {
     "level": 5,
@@ -1350,7 +1472,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "07A"
   },
   {
     "level": 5,
@@ -1361,7 +1484,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "07B"
   },
   {
     "level": 5,
@@ -1372,7 +1496,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "07C"
   },
   {
     "level": 5,
@@ -1383,7 +1508,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "07D"
   },
   {
     "level": 5,
@@ -1394,7 +1520,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "07E"
   },
   {
     "level": 5,
@@ -1405,7 +1532,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "07F"
   },
   {
     "level": 5,
@@ -1416,7 +1544,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "080"
   },
   {
     "level": 5,
@@ -1427,7 +1556,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "081"
   },
   {
     "level": 5,
@@ -1438,7 +1568,8 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "082"
   },
   {
     "level": 5,
@@ -1449,6 +1580,7 @@
     "skill__type": "",
     "skill__probability": "",
     "skill__description": "",
-    "image": "./roleImages/{name}.png"
+    "image": "./roleImages/{name}.png",
+    "code": "083"
   }
 ]
