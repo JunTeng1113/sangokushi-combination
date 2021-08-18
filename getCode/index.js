@@ -8,8 +8,10 @@ $(document).ready(function () {
         success: function (response) {
             response.forEach(function(element, index) {
                 $("#skillMenu > ul").append(`<li 
+                class="skill" 
                 index="${index}" 
                 level="${element['level']}"
+                type="${element['type']}"
                 code="${element['code']}"
                 >${element['name']}</li>`);
             });
@@ -25,12 +27,10 @@ $(document).ready(function () {
             response.forEach(function(element, index) {
                 const image = element['image'].replace("{name}", element['name']);
                 $("#roleMenu > ul").append(`<li 
+                    class="role" 
                     index="${index}" 
                     level="${element['level']}" 
-                    skillLevel="${element['skill__level']}" 
-                    skillName="${element['skill__name']}" 
-                    image="${image}"
-                    group="${element['group']}"
+                    group="${element['group']}" 
                     code="${element['code']}"
                     >${element['name']}</li>`);
             });
@@ -47,5 +47,24 @@ $(document).ready(function () {
             code += $(element).attr("code");
         });
         $("#code").val(code);
+    });
+
+    $(`input[name="filterRole"]`).change(function (e) { 
+        $(".role").css("display", "none");
+        console.log($(`input[name="filterRole"]:checked`).attr("id"));
+        const checked = $(`input[name="filterRole"]:checked`);
+        checked.each(function (index, element) {
+            $(`.role[group="${$(element).attr("id")}"]`).css("display", "");
+        });
+        
+    });
+    $(`input[name="filterSkill"]`).change(function (e) { 
+        $(".skill").css("display", "none");
+        console.log($(`input[name="filterSkill"]:checked`).attr("id"));
+        const checked = $(`input[name="filterSkill"]:checked`);
+        checked.each(function (index, element) {
+            $(`.skill[type="${$(element).attr("id")}"]`).css("display", "");
+        });
+        
     });
 });
