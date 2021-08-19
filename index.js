@@ -1,3 +1,5 @@
+import { compression, decompression } from "./function.js";
+
 $(document).ready(function () {
     $.ajax({
         async: false, 
@@ -22,7 +24,7 @@ $(document).ready(function () {
                 }
                 $(`.skillList ul[type~="${element['type']}"]`).append(`<li 
                 class="skill" 
-                index="${index}" 
+                index="${element['index']}" 
                 level="${element['level']}"
                 type="${element['type']}"
                 code="${element['code']}"
@@ -41,7 +43,7 @@ $(document).ready(function () {
                 const image = element['image'].replace("{name}", element['name']);
                 $(`.roleList ul[group="${element['group']}"]`).append(`<li 
                     class="role" 
-                    index="${index}"
+                    index="${element['index']}"
                     cost="${element['cost']}" 
                     level="${element['level']}" 
                     skillLevel="${element['skill__level']}" 
@@ -70,6 +72,8 @@ $(document).ready(function () {
                 $(this).css("background-image", ``);
                 $(this).text("");
                 $(this).removeClass("role_selected");
+                $(this).siblings(".skills").find(".S1").find(".skillLevel").text("");
+                $(this).siblings(".skills").find(".S1").find(".skillName").text("");
             }
             
         });
@@ -107,8 +111,8 @@ $(document).ready(function () {
             $(".role_selected").find(".roleInfo").attr("level", $(this).attr("level"));
             $(".role_selected").find(".roleInfo").find(".roleName").text($(this).find("name").text());
             $(".role_selected").find(".roleInfo").find(".roleGroup").text($(this).find("group").text());
-            $(".role_selected").siblings(".skillList").find(".S1").find(".skillLevel").text($(this).attr("skillLevel"));
-            $(".role_selected").siblings(".skillList").find(".S1").find(".skillName").text($(this).attr("skillName"));
+            $(".role_selected").siblings(".skills").find(".S1").find(".skillLevel").text($(this).attr("skillLevel"));
+            $(".role_selected").siblings(".skills").find(".S1").find(".skillName").text($(this).attr("skillName"));
             $(".role_selected").removeClass("role_selected");
         }
     });
@@ -127,27 +131,22 @@ $(document).ready(function () {
         }
     });
 
-
-    let code = "";
-    const role = $("#roleMenu ul li");
-    role.each(function (index, element) {
-        code += $(element).attr("code");
-    });
-    const skill = $("#skillMenu ul li");
-    skill.each(function (index, element) {
-        code += $(element).attr("code");
-    });
-    
-
     $("#apply").click(function (e) { 
-        if ($(".codebar").val() == "") {
-            $(".codebar").val(code);
-        }
-        const array = $(".codebar").val().match(/.{1,2}/g);
+        let code = $(".codebar").val();
+        let roleCode = code.substring(0, code.indexOf(","));
+        let skillCode = code.substring(code.indexOf(",") + 1);
         $("li").addClass("hidden");
-        array.forEach(element => {
-            $(`li[code="${element}"]`).removeClass("hidden");
-        });
+        display(".role",decompression(roleCode));
+        display(".skill",decompression(skillCode));
     });
+    function display(group, code) {
+        for (let index = 0; index < code.length; index++) {
+            const element = code[index];
+            if (element == "1") {
+                $(`${group}[index="${index}"]`).removeClass("hidden");
+            }
+            
+        }
+    }
 
 });

@@ -10,7 +10,7 @@ ul {
 
 ul li {
     float: left;
-    margin: .25rem .25rem;
+    margin: .1rem .1rem;
     border: 2px var(--color-18-9) solid;
     border-radius: 2px;
     width: 6rem;
