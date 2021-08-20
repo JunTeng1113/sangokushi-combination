@@ -10,7 +10,7 @@
     justify-content: center;
     position: relative;
 
-    margin: auto 0;
+    margin: auto 0.2rem auto 0;
     width: 4.5rem;
     height: 6.4rem;
     background-color: var(--color-18-7);
