@@ -1,4 +1,4 @@
-import { compression, decompression } from "./function.js";
+import { compression, decompression, reverse } from "./function.js";
 
 $(document).ready(function () {
     $.ajax({
@@ -68,7 +68,16 @@ $(document).ready(function () {
             if (!($(this).text() == "")) {
                 $(`.list .role[index="${$(this).attr("index")}"]`).removeClass("checked");
 
+                var cost = parseInt($(this).parents(".team").find(".cost").find("cost").text());
+                if (!(isNaN($(this).attr("cost")))) {
+                    cost -= parseInt($(this).attr("cost"));
+                }
+                $(this).parents(".team").find(".cost").find("cost").text(cost);
+
                 $(this).attr("index", "");
+                $(this).attr("cost", "");
+                $(this).attr("group", "");
+                $(this).parents(".team").find(".camp").text("陣營");
                 $(this).css("background-image", ``);
                 $(this).text("");
                 $(this).removeClass("role_selected");
@@ -104,16 +113,43 @@ $(document).ready(function () {
             }
             $(this).addClass("checked");
             
+            var cost = parseInt($(".role_selected").parents(".team").find(".cost").find("cost").text());
+            if (!(isNaN(parseInt($(".role_selected").attr("cost"))))) {
+                cost -= parseInt($(".role_selected").attr("cost"));
+            }
+
             $(".role_selected").css("background-image", `url('${$(this).attr("image")}')`);
             $(".role_selected").text(`${$(this).find("name").text()} ${$(this).attr("cost")}`);
             
             $(".role_selected").attr("index", $(this).attr("index"));
+            $(".role_selected").attr("cost", $(this).attr("cost"));
+            $(".role_selected").attr("group", $(this).attr("group"));
             $(".role_selected").find(".roleInfo").attr("level", $(this).attr("level"));
             $(".role_selected").find(".roleInfo").find(".roleName").text($(this).find("name").text());
             $(".role_selected").find(".roleInfo").find(".roleGroup").text($(this).find("group").text());
+            
             $(".role_selected").siblings(".skills").find(".S1").find(".skillLevel").text($(this).attr("skillLevel"));
             $(".role_selected").siblings(".skills").find(".S1").find(".skillName").text($(this).attr("skillName"));
-            $(".role_selected").removeClass("role_selected");
+            
+            cost += parseInt($(".role_selected").attr("cost"));
+            $(".role_selected").parents(".team").find(".cost").find("cost").text(cost);
+
+            console.log($(".role_selected").parents(".team").find(`.roleField[group="魏"]`).length);
+            if ($(".role_selected").parents(".team").find(`.roleField[group="魏"]`).length == 3) {
+                $(".role_selected").parents(".team").find(".camp").text("魏");
+
+            } else if (($(".role_selected").parents(".team").find(`.roleField[group="蜀"]`).length == 3)) {
+                $(".role_selected").parents(".team").find(".camp").text("蜀");
+
+            } else if (($(".role_selected").parents(".team").find(`.roleField[group="吳"]`).length == 3)) {
+                $(".role_selected").parents(".team").find(".camp").text("吳");
+
+            } else if (($(".role_selected").parents(".team").find(`.roleField[group="群"]`).length == 3)) {
+                $(".role_selected").parents(".team").find(".camp").text("群");
+
+            } else {
+                $(".role_selected").parents(".team").find(".camp").text("陣營");
+            }
         }
     });
 
@@ -127,7 +163,6 @@ $(document).ready(function () {
             $(".selected").attr("index", $(this).attr("index"));
             $(".selected").find(".skillLevel").text($(this).attr("level"));
             $(".selected").find(".skillName").text($(this).find("name").text());
-            $(".selected").removeClass("selected");
         }
     });
 
@@ -136,10 +171,13 @@ $(document).ready(function () {
         let roleCode = code.substring(0, code.indexOf(","));
         let skillCode = code.substring(code.indexOf(",") + 1);
         $("li").addClass("hidden");
-        display(".role",decompression(roleCode));
-        display(".skill",decompression(skillCode));
+        display(".role", decompression(roleCode));
+        console.log(skillCode);
+        console.log(decompression(skillCode));
+        display(".skill", decompression(skillCode));
     });
     function display(group, code) {
+        code = reverse(code);
         for (let index = 0; index < code.length; index++) {
             const element = code[index];
             if (element == "1") {

@@ -1,22 +1,12 @@
 
-.container {
-    display: inline-block;
-    position: relative;
-    margin-top: 0px;
-    padding: 0 0.5rem;
-    width: 15rem;
-    height: 100%;
-    background-color: #313131;
-}
 
 .rank {
     display: none;
 }
 .roleField {
     position: relative;
-    display: inline-block;
-    vertical-align: bottom;
 
+    margin: auto 0;
     width: 4.5rem;
     height: 6.4rem;
     background-color: var(--color-18-7);

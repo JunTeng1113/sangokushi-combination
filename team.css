@@ -1,6 +1,46 @@
 .team {
-    margin: .2rem .2rem 0 .2rem;
+    display: flex;
+    margin: .1rem .1rem 0 .1rem;
     width: max-content;
     height: 7rem;
     background-color: var(--color-18-7);
+}
+
+.teamInfo {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 2.5rem;
+    height: 100%;
+    background-color: #313131;
+}
+
+.effact {
+    text-align: center;
+    border-radius: 2px;
+    border: 1px var(--color-18-7) solid;
+    margin: 0.1rem;
+    background-color: var(--color-2-16-8);
+    color: var(--color-18-1);
+}
+
+.cost {
+    text-align: center;
+    border-radius: 2px;
+    border: 1px var(--color-18-7) solid;
+    margin: 0.1rem;
+    background-color: var(--color-13-9);
+    color: var(--color-18-1);
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    margin-left: 0.1rem;
+    padding: 0 0.5rem;
+    width: 15rem;
+    height: 100%;
+    background-color: #313131;
 }

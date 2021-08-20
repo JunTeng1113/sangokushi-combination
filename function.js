@@ -58,8 +58,8 @@ function decompression(code) {
     return reverse(newCode);
 }
 
-export {compression, decompression};
-
 function reverse(string) {
     return string.split('').reverse().join('');
 }
+
+export {compression, decompression, reverse};

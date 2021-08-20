@@ -99,4 +99,10 @@ $(document).ready(function () {
         });
         
     });
+
+    $("#copy").click(function (e) { 
+        const inputField = $("#code");
+        inputField.select();
+        document.execCommand("copy");
+    });
 });
