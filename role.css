@@ -4,6 +4,10 @@
     display: none;
 }
 .roleField {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
     position: relative;
 
     margin: auto 0;
