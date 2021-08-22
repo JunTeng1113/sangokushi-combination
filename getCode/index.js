@@ -45,14 +45,8 @@ $(document).ready(function () {
     $("li").click(function (e) { 
         $(this).toggleClass("selected");
 
-        $("#code").val("");
-        if ($(this).hasClass("role")) {
-            roleCode = getNewCode(roleCode,  parseInt($(this).attr("index")), $(this).hasClass("selected"));
-
-        } else if ($(this).hasClass("skill")) {
-            skillCode = getNewCode(skillCode,  parseInt($(this).attr("index")), $(this).hasClass("selected"));
-        }
-        $("#code").val(compression(roleCode) + "," + compression(skillCode));
+        $("#code").val(compression(getCode($(".role"))) + "," + compression(getCode($(".skill"))));
+        console.log(compression(getCode($(".role"))) + "," + compression(getCode($(".skill"))));
     });
 
 
@@ -60,14 +54,13 @@ $(document).ready(function () {
         return string.split('').reverse().join('');
     }
 
-    function getNewCode(code, index, boolean) {
-        var reverseCode = reverse(code);
-        if (boolean) {
-            reverseCode = reverseCode.substring(0, index) + "1" + reverseCode.substring(index + 1)
-        } else {
-            reverseCode = reverseCode.substring(0, index) + "0" + reverseCode.substring(index + 1)
-        }
-        return reverse(reverseCode);
+    function getCode(cls) {
+        var array = [1000];
+        cls.each(function (index, element) {
+            array[$(element).attr("index")] = $(element).hasClass("selected") ? 1 : 0;
+        });
+        const code = array.join("");
+        return code;
     }
 
     function decTo62(number) {
@@ -105,4 +98,76 @@ $(document).ready(function () {
         inputField.select();
         document.execCommand("copy");
     });
+
+    $(".roleAllChecked").click(function (e) { 
+        const status = $(this).attr("status");
+        toggleChecked(this, status);
+        $("#code").val(compression(getCode($(".role"))) + "," + compression(getCode($(".skill"))));
+    });
+    $(".skillAllChecked").click(function (e) { 
+        const status = $(this).attr("status");
+        toggleChecked(this, status);
+        $("#code").val(compression(getCode($(".role"))) + "," + compression(getCode($(".skill"))));
+    });
+
+    $("#apply").click(function (e) { 
+        const roleCode = $("#code").val().split(",")[0];
+        const skillCode = $("#code").val().split(",")[1];
+        console.log(decompression(roleCode) + "," + decompression(skillCode));
+        apply(".role", roleCode);
+        apply(".skill", skillCode);
+    });
+
+    function apply(cls, code) {
+        const array = decompression(code).split("");
+        array.forEach(function(element, index) {
+            console.log(element);
+            if (element == "1") {
+                $(`${cls}[index=${index}]`).addClass("selected");
+            } else {
+                $(`${cls}[index=${index}]`).removeClass("selected");
+            }
+        });
+    }
+
+    function toggleChecked(element, status) {
+        if ($(element).hasClass("roleAllChecked")) {
+            switch (status) {
+                case undefined:
+                case "0":
+                    $(`.role:not([style*="display: none"])`).addClass("selected");
+                    $(element).attr("status", "1");
+                    $(element).text("反選");
+                    break;
+
+                case "1":
+                    $(`.role:not([style*="display: none"])`).removeClass("selected");
+                    $(element).attr("status", "0");
+                    $(element).text("全選");
+                    break;
+            
+                default:
+                    break;
+            }
+
+        } else if ($(element).hasClass("skillAllChecked")) {
+            switch (status) {
+                case undefined:
+                case "0":
+                    $(`.skill:not([style*="display: none"])`).addClass("selected");
+                    $(element).attr("status", "1");
+                    $(element).text("反選");
+                    break;
+
+                case "1":
+                    $(`.skill:not([style*="display: none"])`).removeClass("selected");
+                    $(element).attr("status", "0");
+                    $(element).text("全選");
+                    break;
+            
+                default:
+                    break;
+            }
+        }
+    }
 });
